@@ -26,10 +26,18 @@ export default function ProductSection() {
         </GridItem>
       </GridContainer>
       <div>
+        <div className="video-background">
+          <video loop autoPlay muted>
+            <source
+              src={require("/Users/lighttwist/Documents/Risky Boys/Landing Page/material-kit-react-main/src/assets/hbp.mp4")}
+              type="video/mp4"
+            />
+          </video>
+        </div>
         <GridContainer>
           <GridItem xs={12} sm={12} md={4}>
             <InfoArea
-              title="Producer"
+              title="Producer/DJ"
               description="Disco Astronaut releases music for everyone."
               icon={Brightness3}
               iconColor="info"
@@ -38,7 +46,7 @@ export default function ProductSection() {
           </GridItem>
           <GridItem xs={12} sm={12} md={4}>
             <InfoArea
-              title="DJ"
+              title="Uniqe NFT"
               description="Disco Astronauts shows occur in Virtual space. NFT holders have access to them."
               icon={Brightness5}
               iconColor="success"

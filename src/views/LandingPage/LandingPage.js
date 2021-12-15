@@ -24,6 +24,7 @@ import ProductSection from "./Sections/ProductSection.js";
 import TeamSection from "./Sections/TeamSection.js";
 import WorkSection from "./Sections/WorkSection.js";
 import Gallery from "./Sections/Gallery.js";
+// import Video from "./Sections/Video.js";
 
 const dashboardRoutes = [];
 
@@ -71,9 +72,10 @@ export default function LandingPage(props) {
         <div className={classes.container}>
           <ProductSection />
           <Gallery />
+          <WorkSection />
+          {/* <Video /> */}
           <SectionCarousel />
           <TeamSection />
-          <WorkSection />
         </div>
       </div>
       <Footer />
