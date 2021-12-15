@@ -21,6 +21,7 @@ import styles from "assets/jss/material-kit-react/views/landingPage.js";
 import ProductSection from "./Sections/ProductSection.js";
 import TeamSection from "./Sections/TeamSection.js";
 import WorkSection from "./Sections/WorkSection.js";
+import Gallery from "./Sections/Gallery.js";
 
 const dashboardRoutes = [];
 
@@ -58,7 +59,7 @@ export default function LandingPage(props) {
                 rel="noopener noreferrer"
               >
                 <i className="fas fa-play" />
-                Video
+                Trailer
               </Button>
             </GridItem>
           </GridContainer>
@@ -67,6 +68,7 @@ export default function LandingPage(props) {
       <div className={classNames(classes.main, classes.mainRaised)}>
         <div className={classes.container}>
           <ProductSection />
+          <Gallery />
           <TeamSection />
           <WorkSection />
         </div>
