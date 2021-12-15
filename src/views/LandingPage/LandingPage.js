@@ -15,6 +15,8 @@ import Button from "components/CustomButtons/Button.js";
 import HeaderLinks from "components/Header/HeaderLinks.js";
 import Parallax from "components/Parallax/Parallax.js";
 
+import SectionCarousel from "/Users/lighttwist/Documents/Risky Boys/Landing Page/material-kit-react-main/src/views/Components/Sections/SectionCarousel.js";
+
 import styles from "assets/jss/material-kit-react/views/landingPage.js";
 
 // Sections for this page
@@ -69,6 +71,7 @@ export default function LandingPage(props) {
         <div className={classes.container}>
           <ProductSection />
           <Gallery />
+          <SectionCarousel />
           <TeamSection />
           <WorkSection />
         </div>

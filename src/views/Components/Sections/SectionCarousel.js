@@ -10,9 +10,12 @@ import GridContainer from "components/Grid/GridContainer.js";
 import GridItem from "components/Grid/GridItem.js";
 import Card from "components/Card/Card.js";
 
-import image1 from "assets/img/bg.jpg";
-import image2 from "assets/img/bg2.jpg";
-import image3 from "assets/img/bg3.jpg";
+import image1 from "/Users/lighttwist/Documents/Risky Boys/Landing Page/material-kit-react-main/src/assets/img/da/2.png";
+import image2 from "/Users/lighttwist/Documents/Risky Boys/Landing Page/material-kit-react-main/src/assets/img/da/3.png";
+import image3 from "/Users/lighttwist/Documents/Risky Boys/Landing Page/material-kit-react-main/src/assets/img/da/4.png";
+import image4 from "/Users/lighttwist/Documents/Risky Boys/Landing Page/material-kit-react-main/src/assets/img/da/6.png";
+import image5 from "/Users/lighttwist/Documents/Risky Boys/Landing Page/material-kit-react-main/src/assets/img/da/7.png";
+import image6 from "/Users/lighttwist/Documents/Risky Boys/Landing Page/material-kit-react-main/src/assets/img/da/8.png";
 
 import styles from "assets/jss/material-kit-react/views/componentsSections/carouselStyle.js";
 
@@ -40,7 +43,7 @@ export default function SectionCarousel() {
                   <div className="slick-caption">
                     <h4>
                       <LocationOn className="slick-icons" />
-                      Yellowstone National Park, United States
+                      Disco Astronaut #134
                     </h4>
                   </div>
                 </div>
@@ -53,7 +56,7 @@ export default function SectionCarousel() {
                   <div className="slick-caption">
                     <h4>
                       <LocationOn className="slick-icons" />
-                      Somewhere Beyond, United States
+                      Disco Astronaut #1546
                     </h4>
                   </div>
                 </div>
@@ -62,7 +65,34 @@ export default function SectionCarousel() {
                   <div className="slick-caption">
                     <h4>
                       <LocationOn className="slick-icons" />
-                      Yellowstone National Park, United States
+                      Disco Astronaut #5348
+                    </h4>
+                  </div>
+                </div>
+                <div>
+                  <img src={image6} alt="Third slide" className="slick-image" />
+                  <div className="slick-caption">
+                    <h4>
+                      <LocationOn className="slick-icons" />
+                      Disco Astronaut #5348
+                    </h4>
+                  </div>
+                </div>
+                <div>
+                  <img src={image4} alt="Third slide" className="slick-image" />
+                  <div className="slick-caption">
+                    <h4>
+                      <LocationOn className="slick-icons" />
+                      Disco Astronaut #5348
+                    </h4>
+                  </div>
+                </div>
+                <div>
+                  <img src={image5} alt="Third slide" className="slick-image" />
+                  <div className="slick-caption">
+                    <h4>
+                      <LocationOn className="slick-icons" />
+                      Disco Astronaut #5348
                     </h4>
                   </div>
                 </div>
