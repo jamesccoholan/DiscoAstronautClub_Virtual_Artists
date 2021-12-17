@@ -37,7 +37,9 @@ export default function Gallery() {
   );
   return (
     <div className={classes.section}>
-      <h2 className={classes.title}>Gallery</h2>
+      <h2 className={classes.title}>
+        Your Ticket to the Greatest Festival in the Universe
+      </h2>
       <div>
         <GridContainer>
           <GridItem xs={12} sm={12} md={4}>

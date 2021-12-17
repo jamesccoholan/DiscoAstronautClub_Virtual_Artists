@@ -42,7 +42,10 @@ export default function TeamSection() {
               <h4 className={classes.cardTitle}>
                 Disco Astronaut Artist
                 <br />
-                <small className={classes.smallTitle}>Model</small>
+                <small className={classes.smallTitle}>
+                  {" "}
+                  Creative Director / Project Manager
+                </small>
               </h4>
               <CardBody>
                 <p className={classes.description}>
@@ -83,9 +86,9 @@ export default function TeamSection() {
                 <img src={team2} alt="..." className={imageClasses} />
               </GridItem>
               <h4 className={classes.cardTitle}>
-                Disco Astronaut Artist
+                Disco Astronaut Code
                 <br />
-                <small className={classes.smallTitle}>Designer</small>
+                <small className={classes.smallTitle}>Developer</small>
               </h4>
               <CardBody>
                 <p className={classes.description}>
@@ -119,9 +122,9 @@ export default function TeamSection() {
                 <img src={team3} alt="..." className={imageClasses} />
               </GridItem>
               <h4 className={classes.cardTitle}>
-                Kendall Jenner
+                Disco Astro Biz
                 <br />
-                <small className={classes.smallTitle}>Model</small>
+                <small className={classes.smallTitle}>Promotions</small>
               </h4>
               <CardBody>
                 <p className={classes.description}>

@@ -21,8 +21,10 @@ export default function ProductSection() {
     <div className={classes.section}>
       <GridContainer justify="center">
         <GridItem xs={12} sm={12} md={8}>
-          <h2 className={classes.title}>The Best Art</h2>
-          <h5 className={classes.description}>An artist</h5>
+          <h2 className={classes.title}>
+            Your Ticket to the Greatest Festival in the Universe
+          </h2>
+          {/* <h5 className={classes.description}>Overview</h5> */}
         </GridItem>
       </GridContainer>
       <div>
@@ -38,7 +40,7 @@ export default function ProductSection() {
           <GridItem xs={12} sm={12} md={4}>
             <InfoArea
               title="Producer/DJ"
-              description="Disco Astronaut releases music for everyone."
+              description="3D Generative 10K NFT on Solana. Space/Music theme. Disco Astronaut is a community but also an artist that people can engage with through songs, videos, social media, virtual concerts, merch, on top of holding the NFT. NFT gives the audience an ownership share in the artist as the brand expands. "
               icon={Brightness3}
               iconColor="info"
               vertical
@@ -47,7 +49,8 @@ export default function ProductSection() {
           <GridItem xs={12} sm={12} md={4}>
             <InfoArea
               title="Uniqe NFT"
-              description="Disco Astronauts shows occur in Virtual space. NFT holders have access to them."
+              description="Minting a Disco Astronaut acts as your ticket to the greatest festival in the universe. Blastoff to the moon with us on Launch. Access to the fleet means more than just bragging rights. We have made it our goal to make sure utility is always offered to all our students.
+              "
               icon={Brightness5}
               iconColor="success"
               vertical
@@ -55,8 +58,8 @@ export default function ProductSection() {
           </GridItem>
           <GridItem xs={12} sm={12} md={4}>
             <InfoArea
-              title="Virtual Artist"
-              description="Stay tuned for more."
+              title="Virtual Concerts and Live Events"
+              description="Every owner of the NFT gets to go to the virtual shows. Own a piece of an artist from the beginning as they progress."
               icon={FlashOn}
               iconColor="danger"
               vertical

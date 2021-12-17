@@ -51,8 +51,10 @@ export default function LandingPage(props) {
         <div className={classes.container}>
           <GridContainer>
             <GridItem xs={12} sm={12} md={6}>
-              <h1 className={classes.title}>9,999 Out of this World NFTs</h1>
-              <h4>10,000 Disco Astronaut NFT{"'"}s. Minting Soon</h4>
+              <h1 className={classes.title}>
+                The First Virtually Native NFT Artist
+              </h1>
+              <h4>Next Generation 8K NFT{"'"}s Minting in 2022</h4>
               <br />
               <Button
                 color="danger"
@@ -73,7 +75,6 @@ export default function LandingPage(props) {
           <ProductSection />
           <Gallery />
           <WorkSection />
-          {/* <Video /> */}
           <SectionCarousel />
           <TeamSection />
         </div>
