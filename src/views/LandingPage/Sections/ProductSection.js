@@ -48,8 +48,8 @@ export default function ProductSection() {
           </GridItem>
           <GridItem xs={12} sm={12} md={4}>
             <InfoArea
-              title="Uniqe NFT"
-              description="Minting a Disco Astronaut acts as your ticket to the greatest festival in the universe. Blastoff to the moon with us on Launch. Access to the fleet means more than just bragging rights. We have made it our goal to make sure utility is always offered to all our students.
+              title="NFT Collection"
+              description="Own a Disco Astronaut and a peice of this artists carrer. Blastoff to the moon with us on Launch. We have made it our goal to make sure utility is always offered to all our students.
               "
               icon={Brightness5}
               iconColor="success"
@@ -59,7 +59,7 @@ export default function ProductSection() {
           <GridItem xs={12} sm={12} md={4}>
             <InfoArea
               title="Virtual Concerts and Live Events"
-              description="Every owner of the NFT gets to go to the virtual shows. Own a piece of an artist from the beginning as they progress."
+              description="Every owner of the NFT gets to go to the virtual shows. Own a piece of an artist from the beginning as they progress. We are building these artists to all exist and play shows ina virtual evniorment called the Agora. A place NFT holders will have access to."
               icon={FlashOn}
               iconColor="danger"
               vertical
