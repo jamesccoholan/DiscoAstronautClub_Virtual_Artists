@@ -31,7 +31,7 @@ export default function ProductSection() {
         <div className="video-background">
           <video loop autoPlay muted>
             <source
-              src={require("/Users/lighttwist/Documents/Risky Boys/Landing Page/material-kit-react-main/src/assets/hbp.mp4")}
+              src={require("/Users/NFT/discoastronautclub/src/assets/hbp.mp4")}
               type="video/mp4"
             />
           </video>

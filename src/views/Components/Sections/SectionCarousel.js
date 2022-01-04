@@ -10,12 +10,12 @@ import GridContainer from "components/Grid/GridContainer.js";
 import GridItem from "components/Grid/GridItem.js";
 import Card from "components/Card/Card.js";
 
-import image1 from "/Users/lighttwist/Documents/Risky Boys/Landing Page/material-kit-react-main/src/assets/img/da/2.png";
-import image2 from "/Users/lighttwist/Documents/Risky Boys/Landing Page/material-kit-react-main/src/assets/img/da/3.png";
-import image3 from "/Users/lighttwist/Documents/Risky Boys/Landing Page/material-kit-react-main/src/assets/img/da/4.png";
-import image4 from "/Users/lighttwist/Documents/Risky Boys/Landing Page/material-kit-react-main/src/assets/img/da/6.png";
-import image5 from "/Users/lighttwist/Documents/Risky Boys/Landing Page/material-kit-react-main/src/assets/img/da/7.png";
-import image6 from "/Users/lighttwist/Documents/Risky Boys/Landing Page/material-kit-react-main/src/assets/img/da/8.png";
+import image1 from "/Users/NFT/discoastronautclub/src/assets/img/da/2.png";
+import image2 from "/Users/NFT/discoastronautclub/src/assets/img/da/3.png";
+import image3 from "/Users/NFT/discoastronautclub/src/assets/img/da/4.png";
+import image4 from "/Users/NFT/discoastronautclub/src/assets/img/da/6.png";
+import image5 from "/Users/NFT/discoastronautclub/src/assets/img/da/7.png";
+import image6 from "/Users/NFT/discoastronautclub/src/assets/img/da/8.png";
 
 import styles from "assets/jss/material-kit-react/views/componentsSections/carouselStyle.js";
 
