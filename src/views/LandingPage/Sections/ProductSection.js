@@ -39,7 +39,7 @@ export default function ProductSection() {
         <GridContainer>
           <GridItem xs={12} sm={12} md={4}>
             <InfoArea
-              title="Producer/DJ"
+              title="Virtual Producer/DJ"
               description="3D Generative 10K NFT on Solana. Space/Music theme. Disco Astronaut is a community but also an artist that people can engage with through songs, videos, social media, virtual concerts, merch, on top of holding the NFT. NFT gives the audience an ownership share in the artist as the brand expands. "
               icon={Brightness3}
               iconColor="info"
@@ -48,7 +48,7 @@ export default function ProductSection() {
           </GridItem>
           <GridItem xs={12} sm={12} md={4}>
             <InfoArea
-              title="NFT Collection"
+              title="10K NFT Collection"
               description="Own a Disco Astronaut and a peice of this artists carrer. Blastoff to the moon with us on Launch. We have made it our goal to make sure utility is always offered to all our students.
               "
               icon={Brightness5}
@@ -58,7 +58,7 @@ export default function ProductSection() {
           </GridItem>
           <GridItem xs={12} sm={12} md={4}>
             <InfoArea
-              title="Virtual Concerts and Live Events"
+              title="Metaverse Concerts and Live Events"
               description="Every owner of the NFT gets to go to the virtual shows. Own a piece of an artist from the beginning as they progress. We are building these artists to all exist and play shows ina virtual evniorment called the Agora. A place NFT holders will have access to."
               icon={FlashOn}
               iconColor="danger"

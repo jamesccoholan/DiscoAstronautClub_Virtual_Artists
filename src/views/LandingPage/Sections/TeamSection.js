@@ -9,7 +9,7 @@ import { makeStyles } from "@material-ui/core/styles";
 // core components
 import GridContainer from "components/Grid/GridContainer.js";
 import GridItem from "components/Grid/GridItem.js";
-import Button from "components/CustomButtons/Button.js";
+// import Button from "components/CustomButtons/Button.js";
 import Card from "components/Card/Card.js";
 import CardBody from "components/Card/CardBody.js";
 import CardFooter from "components/Card/CardFooter.js";
@@ -56,7 +56,7 @@ export default function TeamSection() {
                 </p>
               </CardBody>
               <CardFooter className={classes.justifyCenter}>
-                <Button
+                {/* <Button
                   justIcon
                   color="transparent"
                   className={classes.margin5}
@@ -76,7 +76,7 @@ export default function TeamSection() {
                   className={classes.margin5}
                 >
                   <i className={classes.socials + " fab fa-facebook"} />
-                </Button>
+                </Button> */}
               </CardFooter>
             </Card>
           </GridItem>
@@ -99,7 +99,7 @@ export default function TeamSection() {
                 </p>
               </CardBody>
               <CardFooter className={classes.justifyCenter}>
-                <Button
+                {/* <Button
                   justIcon
                   color="transparent"
                   className={classes.margin5}
@@ -112,7 +112,7 @@ export default function TeamSection() {
                   className={classes.margin5}
                 >
                   <i className={classes.socials + " fab fa-linkedin"} />
-                </Button>
+                </Button> */}
               </CardFooter>
             </Card>
           </GridItem>
@@ -135,7 +135,7 @@ export default function TeamSection() {
                 </p>
               </CardBody>
               <CardFooter className={classes.justifyCenter}>
-                <Button
+                {/* <Button
                   justIcon
                   color="transparent"
                   className={classes.margin5}
@@ -155,7 +155,7 @@ export default function TeamSection() {
                   className={classes.margin5}
                 >
                   <i className={classes.socials + " fab fa-facebook"} />
-                </Button>
+                </Button> */}
               </CardFooter>
             </Card>
           </GridItem>

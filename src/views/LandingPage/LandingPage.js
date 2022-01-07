@@ -21,7 +21,7 @@ import styles from "assets/jss/material-kit-react/views/landingPage.js";
 
 // Sections for this page
 import ProductSection from "./Sections/ProductSection.js";
-import TeamSection from "./Sections/TeamSection.js";
+// import TeamSection from "./Sections/TeamSection.js";
 import WorkSection from "./Sections/WorkSection.js";
 import Gallery from "./Sections/Gallery.js";
 // import Video from "./Sections/Video.js";
@@ -52,14 +52,14 @@ export default function LandingPage(props) {
           <GridContainer>
             <GridItem xs={12} sm={12} md={6}>
               <h1 className={classes.title}>
-                The First Virtually Native NFT Artist
+                The First Virtually Native On Chain Artist
               </h1>
               <h4>Next Generation 8K NFT{"'"}s Minting in 2022</h4>
               <br />
               <Button
                 color="danger"
                 size="lg"
-                href="https://www.youtube.com/watch?v=0GmNK8r9NXo"
+                href="https://youtu.be/rqUEtN2Rzms"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -76,7 +76,7 @@ export default function LandingPage(props) {
           <Gallery />
           <WorkSection />
           <SectionCarousel />
-          <TeamSection />
+          {/* <TeamSection /> */}
         </div>
       </div>
       <Footer />

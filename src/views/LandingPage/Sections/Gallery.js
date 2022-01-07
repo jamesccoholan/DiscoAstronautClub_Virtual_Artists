@@ -22,9 +22,9 @@ import team3 from "assets/img/da/44.png";
 import team4 from "assets/img/da/45.png";
 import team5 from "assets/img/da/46.png";
 import team6 from "assets/img/da/47.png";
-import team7 from "assets/img/da/19.png";
-import team8 from "assets/img/da/39.png";
-import team9 from "assets/img/da/50.png";
+// import team7 from "assets/img/da/19.png";
+// import team8 from "assets/img/da/39.png";
+// import team9 from "assets/img/da/50.png";
 
 const useStyles = makeStyles(styles);
 
@@ -43,7 +43,7 @@ export default function Gallery() {
           <GridItem xs={12} sm={12} md={4}>
             <Card plain>
               <GridItem xs={100} sm={100} md={100} className={classes.itemGrid}>
-                <img src={team1} alt="..." className={imageClasses} />
+                <img src={team6} alt="..." className={imageClasses} />
               </GridItem>
               <h4 className={classes.cardTitle}>
                 Disco Astronaut #5555
@@ -100,7 +100,7 @@ export default function Gallery() {
           <GridItem xs={12} sm={12} md={4}>
             <Card plain>
               <GridItem xs={100} sm={100} md={100} className={classes.itemGrid}>
-                <img src={team6} alt="..." className={imageClasses} />
+                <img src={team1} alt="..." className={imageClasses} />
               </GridItem>
               <h4 className={classes.cardTitle}>
                 Disco Astronaut #378
@@ -110,7 +110,7 @@ export default function Gallery() {
           </GridItem>
         </GridContainer>
         <GridContainer>
-          <GridItem xs={12} sm={12} md={4}>
+          {/* <GridItem xs={12} sm={12} md={4}>
             <Card plain>
               <GridItem xs={100} sm={100} md={100} className={classes.itemGrid}>
                 <img src={team7} alt="..." className={imageClasses} />
@@ -120,8 +120,8 @@ export default function Gallery() {
                 <br />
               </h4>
             </Card>
-          </GridItem>
-          <GridItem xs={12} sm={12} md={4}>
+          </GridItem> */}
+          {/* <GridItem xs={12} sm={12} md={4}>
             <Card plain>
               <GridItem xs={100} sm={100} md={100} className={classes.itemGrid}>
                 <img src={team8} alt="..." className={imageClasses} />
@@ -131,8 +131,8 @@ export default function Gallery() {
                 <br />
               </h4>
             </Card>
-          </GridItem>
-          <GridItem xs={12} sm={12} md={4}>
+          </GridItem> */}
+          {/* <GridItem xs={12} sm={12} md={4}>
             <Card plain>
               <GridItem xs={100} sm={100} md={100} className={classes.itemGrid}>
                 <img src={team9} alt="..." className={imageClasses} />
@@ -142,7 +142,7 @@ export default function Gallery() {
                 <br />
               </h4>
             </Card>
-          </GridItem>
+          </GridItem> */}
         </GridContainer>
       </div>
     </div>
