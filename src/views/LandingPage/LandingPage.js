@@ -15,7 +15,7 @@ import Button from "components/CustomButtons/Button.js";
 import HeaderLinks from "components/Header/HeaderLinks.js";
 import Parallax from "components/Parallax/Parallax.js";
 
-import SectionCarousel from "/Users/NFT/discoastronautclub/src/views/Components/Sections/SectionCarousel.js";
+import SectionCarousel from "~/src/views/Components/Sections/SectionCarousel.js";
 
 import styles from "assets/jss/material-kit-react/views/landingPage.js";
 

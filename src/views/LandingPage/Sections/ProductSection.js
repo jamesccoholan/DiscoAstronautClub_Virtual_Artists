@@ -31,7 +31,7 @@ export default function ProductSection() {
         <div className="video-background">
           <video loop autoPlay muted>
             <source
-              src={require("/Users/NFT/discoastronautclub/src/assets/hbp.mp4")}
+              src={require("~/public/assets/mp4/hbp.mp4")}
               type="video/mp4"
             />
           </video>
