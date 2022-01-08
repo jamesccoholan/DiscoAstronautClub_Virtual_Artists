@@ -10,13 +10,6 @@ import GridContainer from "components/Grid/GridContainer.js";
 import GridItem from "components/Grid/GridItem.js";
 import Card from "components/Card/Card.js";
 
-import image1 from "/Users/NFT/discoastronautclub/src/assets/img/da/2.png";
-import image2 from "/Users/NFT/discoastronautclub/src/assets/img/da/3.png";
-import image3 from "/Users/NFT/discoastronautclub/src/assets/img/da/4.png";
-import image4 from "/Users/NFT/discoastronautclub/src/assets/img/da/6.png";
-import image5 from "/Users/NFT/discoastronautclub/src/assets/img/da/7.png";
-import image6 from "/Users/NFT/discoastronautclub/src/assets/img/da/8.png";
-
 import styles from "assets/jss/material-kit-react/views/componentsSections/carouselStyle.js";
 
 const useStyles = makeStyles(styles);
@@ -39,7 +32,11 @@ export default function SectionCarousel() {
             <Card carousel>
               <Carousel {...settings}>
                 <div>
-                  <img src={image1} alt="First slide" className="slick-image" />
+                  <img
+                    src={"assets/img/da/2.png"}
+                    alt="First slide"
+                    className="slick-image"
+                  />
                   <div className="slick-caption">
                     <h4>
                       <LocationOn className="slick-icons" />
@@ -49,7 +46,7 @@ export default function SectionCarousel() {
                 </div>
                 <div>
                   <img
-                    src={image2}
+                    src={"assets/img/da/3.png"}
                     alt="Second slide"
                     className="slick-image"
                   />
@@ -61,7 +58,11 @@ export default function SectionCarousel() {
                   </div>
                 </div>
                 <div>
-                  <img src={image3} alt="Third slide" className="slick-image" />
+                  <img
+                    src={"assets/img/da/4.png"}
+                    alt="Third slide"
+                    className="slick-image"
+                  />
                   <div className="slick-caption">
                     <h4>
                       <LocationOn className="slick-icons" />
@@ -70,7 +71,11 @@ export default function SectionCarousel() {
                   </div>
                 </div>
                 <div>
-                  <img src={image6} alt="Third slide" className="slick-image" />
+                  <img
+                    src={"assets/img/da/8.png"}
+                    alt="Third slide"
+                    className="slick-image"
+                  />
                   <div className="slick-caption">
                     <h4>
                       <LocationOn className="slick-icons" />
@@ -79,7 +84,11 @@ export default function SectionCarousel() {
                   </div>
                 </div>
                 <div>
-                  <img src={image4} alt="Third slide" className="slick-image" />
+                  <img
+                    src={"assets/img/da/6.png"}
+                    alt="Third slide"
+                    className="slick-image"
+                  />
                   <div className="slick-caption">
                     <h4>
                       <LocationOn className="slick-icons" />
@@ -88,7 +97,11 @@ export default function SectionCarousel() {
                   </div>
                 </div>
                 <div>
-                  <img src={image5} alt="Third slide" className="slick-image" />
+                  <img
+                    src={"assets/img/da/7.png"}
+                    alt="Third slide"
+                    className="slick-image"
+                  />
                   <div className="slick-caption">
                     <h4>
                       <LocationOn className="slick-icons" />

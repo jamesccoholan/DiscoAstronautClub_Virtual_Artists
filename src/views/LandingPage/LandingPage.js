@@ -15,7 +15,7 @@ import Button from "components/CustomButtons/Button.js";
 import HeaderLinks from "components/Header/HeaderLinks.js";
 import Parallax from "components/Parallax/Parallax.js";
 
-import SectionCarousel from "/Users/NFT/discoastronautclub/src/views/Components/Sections/SectionCarousel.js";
+import SectionCarousel from "../Components/Sections/SectionCarousel.js";
 
 import styles from "assets/jss/material-kit-react/views/landingPage.js";
 
@@ -47,7 +47,7 @@ export default function LandingPage(props) {
         }}
         {...rest}
       />
-      <Parallax filter image={require("assets/img/landing-bg.jpg").default}>
+      <Parallax filter image={"assets/img/landing-bg.jpg"}>
         <div className={classes.container}>
           <GridContainer>
             <GridItem xs={12} sm={12} md={6}>

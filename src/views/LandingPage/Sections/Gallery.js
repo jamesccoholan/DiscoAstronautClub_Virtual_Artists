@@ -16,16 +16,6 @@ import Card from "components/Card/Card.js";
 
 import styles from "assets/jss/material-kit-react/views/landingPageSections/teamStyle.js";
 
-import team1 from "assets/img/da/42.png";
-import team2 from "assets/img/da/43.png";
-import team3 from "assets/img/da/44.png";
-import team4 from "assets/img/da/45.png";
-import team5 from "assets/img/da/46.png";
-import team6 from "assets/img/da/47.png";
-// import team7 from "assets/img/da/19.png";
-// import team8 from "assets/img/da/39.png";
-// import team9 from "assets/img/da/50.png";
-
 const useStyles = makeStyles(styles);
 
 export default function Gallery() {
@@ -43,7 +33,11 @@ export default function Gallery() {
           <GridItem xs={12} sm={12} md={4}>
             <Card plain>
               <GridItem xs={100} sm={100} md={100} className={classes.itemGrid}>
-                <img src={team6} alt="..." className={imageClasses} />
+                <img
+                  src={"assets/img/da/47.png"}
+                  alt="..."
+                  className={imageClasses}
+                />
               </GridItem>
               <h4 className={classes.cardTitle}>
                 Disco Astronaut #5555
@@ -54,7 +48,11 @@ export default function Gallery() {
           <GridItem xs={12} sm={12} md={4}>
             <Card plain>
               <GridItem xs={100} sm={100} md={100} className={classes.itemGrid}>
-                <img src={team2} alt="..." className={imageClasses} />
+                <img
+                  src={"assets/img/da/43.png"}
+                  alt="..."
+                  className={imageClasses}
+                />
               </GridItem>
               <h4 className={classes.cardTitle}>
                 Disco Astronaut #6574
@@ -65,7 +63,11 @@ export default function Gallery() {
           <GridItem xs={12} sm={12} md={4}>
             <Card plain>
               <GridItem xs={100} sm={100} md={100} className={classes.itemGrid}>
-                <img src={team3} alt="..." className={imageClasses} />
+                <img
+                  src={"assets/img/da/44.png"}
+                  alt="..."
+                  className={imageClasses}
+                />
               </GridItem>
               <h4 className={classes.cardTitle}>
                 Disco Astronaut #2143
@@ -78,7 +80,11 @@ export default function Gallery() {
           <GridItem xs={12} sm={12} md={4}>
             <Card plain>
               <GridItem xs={100} sm={100} md={100} className={classes.itemGrid}>
-                <img src={team4} alt="..." className={imageClasses} />
+                <img
+                  src={"assets/img/da/45.png"}
+                  alt="..."
+                  className={imageClasses}
+                />
               </GridItem>
               <h4 className={classes.cardTitle}>
                 Disco Astronaut Artist
@@ -89,7 +95,11 @@ export default function Gallery() {
           <GridItem xs={12} sm={12} md={4}>
             <Card plain>
               <GridItem xs={100} sm={100} md={100} className={classes.itemGrid}>
-                <img src={team5} alt="..." className={imageClasses} />
+                <img
+                  src={"assets/img/da/46.png"}
+                  alt="..."
+                  className={imageClasses}
+                />
               </GridItem>
               <h4 className={classes.cardTitle}>
                 Disco Astronaut #9865
@@ -100,7 +110,11 @@ export default function Gallery() {
           <GridItem xs={12} sm={12} md={4}>
             <Card plain>
               <GridItem xs={100} sm={100} md={100} className={classes.itemGrid}>
-                <img src={team1} alt="..." className={imageClasses} />
+                <img
+                  src={"assets/img/da/42.png"}
+                  alt="..."
+                  className={imageClasses}
+                />
               </GridItem>
               <h4 className={classes.cardTitle}>
                 Disco Astronaut #378

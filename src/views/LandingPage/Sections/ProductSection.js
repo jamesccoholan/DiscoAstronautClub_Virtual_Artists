@@ -30,10 +30,7 @@ export default function ProductSection() {
       <div>
         <div className="video-background">
           <video loop autoPlay muted>
-            <source
-              src={require("/vidoes/DAC_promo.mp4")}
-              type="video/mp4"
-            />
+            <source src={"/vidoes/DAC_promo.mp4"} />
           </video>
         </div>
         <GridContainer>
