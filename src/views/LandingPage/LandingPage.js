@@ -20,6 +20,7 @@ import SectionCarousel from "../Components/Sections/SectionCarousel.js";
 import styles from "assets/jss/material-kit-react/views/landingPage.js";
 
 // Sections for this page
+import VideoSection from "./Sections/VideoSection.js";
 import ProductSection from "./Sections/ProductSection.js";
 // import TeamSection from "./Sections/TeamSection.js";
 import WorkSection from "./Sections/WorkSection.js";
@@ -72,6 +73,7 @@ export default function LandingPage(props) {
       </Parallax>
       <div className={classNames(classes.main, classes.mainRaised)}>
         <div className={classes.container}>
+          <VideoSection />
           <ProductSection />
           <Gallery />
           <WorkSection />

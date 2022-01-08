@@ -28,11 +28,6 @@ export default function ProductSection() {
         </GridItem>
       </GridContainer>
       <div>
-        <div className="video-background">
-          <video loop autoPlay muted>
-            <source src={"/vidoes/DAC_promo.mp4"} />
-          </video>
-        </div>
         <GridContainer>
           <GridItem xs={12} sm={12} md={4}>
             <InfoArea
