@@ -28,7 +28,6 @@ import WorkSection from "./Sections/WorkSection.js";
 import Gallery from "./Sections/Gallery.js";
 import Story from "./Sections/Story.js";
 // import FAQ from "./Sections/FAQ.js";
-// import Video from "./Sections/Video.js";
 
 const dashboardRoutes = [];
 
@@ -48,7 +47,7 @@ export default function LandingPage(props) {
         {...rest}
       />
       <Parallax filter image={"./assets/img/DACWide.jpg"}>
-        <Fade duration={1000} bottom cascade>
+        <Fade duration={2000} bottom cascade>
           <div className={classes.container}>
             <GridContainer>
               <GridItem xs={12} sm={12} md={6}>
@@ -64,6 +63,7 @@ export default function LandingPage(props) {
                   href="https://youtu.be/ezRnFj08KlI"
                   target="_blank"
                   rel="noopener noreferrer"
+                  className={classes.titleButton}
                 >
                   <i className="fas fa-play" />
                   Trailer
@@ -85,9 +85,7 @@ export default function LandingPage(props) {
       </Parallax>
       <div className={classNames(classes.main, classes.mainRaised)}>
         <div className={classes.container}>
-          <Fade duration={1000} bottom cascade>
-            <ProductSection />
-          </Fade>
+          <ProductSection />
           {/* <FAQ /> */}
         </div>
       </div>

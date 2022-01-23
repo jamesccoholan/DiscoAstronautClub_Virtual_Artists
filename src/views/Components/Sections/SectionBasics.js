@@ -55,7 +55,7 @@ export default function SectionBasics() {
         range: { min: 0, max: 100 },
       });
     }
-    return function cleanup() {};
+    return function cleanup() { };
   });
   const handleToggle = (value) => {
     const currentIndex = checked.indexOf(value);

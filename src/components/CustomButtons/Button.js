@@ -16,13 +16,6 @@ const makeComponentStyles = makeStyles(() => ({
   ...buttonStyle,
 }));
 
-const style = {
-  height: 48,
-  padding: "0 30px",
-  boxShadow: "0 3px 5px 2px rgba(0, 0, 0, 0.18)",
-  textTransform: "none",
-};
-
 const RegularButton = React.forwardRef((props, ref) => {
   const {
     color,
@@ -55,7 +48,7 @@ const RegularButton = React.forwardRef((props, ref) => {
     [className]: className,
   });
   return (
-    <Button {...rest} ref={ref} className={btnClasses} style={style}>
+    <Button {...rest} ref={ref} className={btnClasses}>
       {children}
     </Button>
   );
@@ -68,6 +61,7 @@ RegularButton.propTypes = {
     "success",
     "warning",
     "danger",
+    "gold",
     "rose",
     "white",
     "facebook",
