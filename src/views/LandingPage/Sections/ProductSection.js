@@ -2,10 +2,6 @@ import React from "react";
 // @material-ui/core components
 import { makeStyles } from "@material-ui/core/styles";
 
-// @material-ui/icons
-import CollectionsSharp from "@material-ui/icons/CollectionsSharp";
-import LibraryMusicSharp from "@material-ui/icons/LibraryMusicSharp";
-import LocalActivitySharp from "@material-ui/icons/LocalActivitySharp";
 // core components
 import GridContainer from "components/Grid/GridContainer.js";
 import GridItem from "components/Grid/GridItem.js";
@@ -32,8 +28,7 @@ export default function ProductSection() {
             <InfoArea
               title="10K NFT Collection"
               description="Hi-res 3D generative art. Disconauts will lean into a different muic culture. Each NFT will have an original, generative peice of music associated to it."
-              icon={CollectionsSharp}
-              iconColor="red"
+              icon={"/assets/img/RedChrome.png"}
               vertical
             />
           </GridItem>
@@ -41,8 +36,7 @@ export default function ProductSection() {
             <InfoArea
               title="Virtual Artists, Original Music"
               description="The Disco Astronaut Club is an artist collective that will be release original music, videos, and cinematic content across social media."
-              icon={LibraryMusicSharp}
-              iconColor="gold"
+              icon={"/assets/img/Star.png"}
               vertical
             />
           </GridItem>
@@ -50,8 +44,7 @@ export default function ProductSection() {
             <InfoArea
               title="Metaverse Concerts and Live Events"
               description="Disconauts play virtual shows in the Metaverse on board their Star-ships, on earth and on distant planets they discover."
-              icon={LocalActivitySharp}
-              iconColor="purple"
+              icon={"/assets/img/BlueChrome.png"}
               vertical
             />
           </GridItem>

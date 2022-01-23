@@ -72,8 +72,8 @@ const infoStyle = {
     float: "none",
   },
   iconVertical: {
-    width: "61px",
-    height: "61px",
+    width: "100px",
+    height: "100px",
   },
 };
 
