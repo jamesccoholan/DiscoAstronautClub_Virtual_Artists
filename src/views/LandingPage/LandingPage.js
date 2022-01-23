@@ -16,8 +16,6 @@ import HeaderLinks from "components/Header/HeaderLinks.js";
 import Parallax from "components/Parallax/Parallax.js";
 import Fade from "react-reveal/Fade";
 
-import SectionCarousel from "../Components/Sections/SectionCarousel.js";
-
 import styles from "assets/jss/material-kit-react/views/landingPage.js";
 
 // Sections for this page
@@ -98,7 +96,6 @@ export default function LandingPage(props) {
           </div>
         </div>
         <WorkSection />
-        <SectionCarousel />
         <div className={classNames(classes.main, classes.mainRaised)}>
           <div className={classes.container}>
             <TeamSection />
