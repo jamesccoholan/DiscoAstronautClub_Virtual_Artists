@@ -22,7 +22,7 @@ export default function ProductSection() {
       <GridContainer justify="center">
         <GridItem xs={12} sm={12} md={8}>
           <h2 className={classes.title}>
-            Your Ticket to the Greatest Festival in the Universe
+            The First Virtually Native On-Chain Artist Collective
           </h2>
           {/* <h5 className={classes.description}>Overview</h5> */}
         </GridItem>
@@ -31,18 +31,8 @@ export default function ProductSection() {
         <GridContainer>
           <GridItem xs={12} sm={12} md={4}>
             <InfoArea
-              title="Virtual Producer/DJ"
-              description="3D Generative 10K NFT on Solana. Space/Music theme. Disco Astronaut is a community but also an artist that people can engage with through songs, videos, social media, virtual concerts, merch, on top of holding the NFT. NFT gives the audience an ownership share in the artist as the brand expands. "
-              icon={Brightness3}
-              iconColor="info"
-              vertical
-            />
-          </GridItem>
-          <GridItem xs={12} sm={12} md={4}>
-            <InfoArea
               title="10K NFT Collection"
-              description="Own a Disco Astronaut and a peice of this artists carrer. Blastoff to the moon with us on Launch. We have made it our goal to make sure utility is always offered to all our students.
-              "
+              description="Hi-res 3D generative art. Owning a Disconaut NFT represents an investment into the artist's expanding brand and community."
               icon={Brightness5}
               iconColor="success"
               vertical
@@ -50,13 +40,25 @@ export default function ProductSection() {
           </GridItem>
           <GridItem xs={12} sm={12} md={4}>
             <InfoArea
+              title="Virtual Artists, Original Music"
+              description="The Disco Astronaut Club is an artist collective that will be releasing original music, videos, and cinematic content with on-chain ownership offered to NFT holders."
+              icon={Brightness3}
+              iconColor="info"
+              vertical
+            />
+          </GridItem>
+          <GridItem xs={12} sm={12} md={4}>
+            <InfoArea
               title="Metaverse Concerts and Live Events"
-              description="Every owner of the NFT gets to go to the virtual shows. Own a piece of an artist from the beginning as they progress. We are building these artists to all exist and play shows ina virtual evniorment called the Agora. A place NFT holders will have access to."
+              description="Disconauts play virtual shows in the Metaverse on board their Star-ships, on earth and on distant planets they discover."
               icon={FlashOn}
               iconColor="danger"
               vertical
             />
           </GridItem>
+        </GridContainer>
+        <GridContainer justify="center">
+          <h2 className={classes.title}> </h2>
         </GridContainer>
       </div>
     </div>

@@ -27,20 +27,20 @@ export default function Gallery() {
   );
   return (
     <div className={classes.section}>
-      <h2 className={classes.title}>Gallery</h2>
       <div>
+        <h2 className={classes.title}>Gallery</h2>
         <GridContainer>
           <GridItem xs={12} sm={12} md={4}>
             <Card plain>
               <GridItem xs={100} sm={100} md={100} className={classes.itemGrid}>
                 <img
-                  src={"assets/img/da/47.png"}
+                  src={"assets/img/NewSuits/2.png"}
                   alt="..."
                   className={imageClasses}
                 />
               </GridItem>
               <h4 className={classes.cardTitle}>
-                Disco Astronaut #5555
+                DiscoNaut #5555
                 <br />
               </h4>
             </Card>
@@ -49,13 +49,13 @@ export default function Gallery() {
             <Card plain>
               <GridItem xs={100} sm={100} md={100} className={classes.itemGrid}>
                 <img
-                  src={"assets/img/da/43.png"}
+                  src={"assets/img/NewSuits/3.png"}
                   alt="..."
                   className={imageClasses}
                 />
               </GridItem>
               <h4 className={classes.cardTitle}>
-                Disco Astronaut #6574
+                DiscoNaut #6574
                 <br />
               </h4>
             </Card>
@@ -64,13 +64,13 @@ export default function Gallery() {
             <Card plain>
               <GridItem xs={100} sm={100} md={100} className={classes.itemGrid}>
                 <img
-                  src={"assets/img/da/44.png"}
+                  src={"assets/img/NewSuits/4.png"}
                   alt="..."
                   className={imageClasses}
                 />
               </GridItem>
               <h4 className={classes.cardTitle}>
-                Disco Astronaut #2143
+                DiscoNaut #2143
                 <br />
               </h4>
             </Card>
@@ -81,13 +81,13 @@ export default function Gallery() {
             <Card plain>
               <GridItem xs={100} sm={100} md={100} className={classes.itemGrid}>
                 <img
-                  src={"assets/img/da/45.png"}
+                  src={"assets/img/NewSuits/5.png"}
                   alt="..."
                   className={imageClasses}
                 />
               </GridItem>
               <h4 className={classes.cardTitle}>
-                Disco Astronaut Artist
+                DiscoNaut #6778
                 <br />
               </h4>
             </Card>
@@ -96,13 +96,13 @@ export default function Gallery() {
             <Card plain>
               <GridItem xs={100} sm={100} md={100} className={classes.itemGrid}>
                 <img
-                  src={"assets/img/da/46.png"}
+                  src={"assets/img/NewSuits/8.png"}
                   alt="..."
                   className={imageClasses}
                 />
               </GridItem>
               <h4 className={classes.cardTitle}>
-                Disco Astronaut #9865
+                DiscoNaut #9865
                 <br />
               </h4>
             </Card>
@@ -111,53 +111,65 @@ export default function Gallery() {
             <Card plain>
               <GridItem xs={100} sm={100} md={100} className={classes.itemGrid}>
                 <img
-                  src={"assets/img/da/42.png"}
+                  src={"assets/img/NewSuits/7.png"}
                   alt="..."
                   className={imageClasses}
                 />
               </GridItem>
               <h4 className={classes.cardTitle}>
-                Disco Astronaut #378
+                DiscoNaut #378
                 <br />
               </h4>
             </Card>
           </GridItem>
         </GridContainer>
-        <GridContainer>
-          {/* <GridItem xs={12} sm={12} md={4}>
+        {/* <GridContainer>
+          <GridItem xs={12} sm={12} md={4}>
             <Card plain>
               <GridItem xs={100} sm={100} md={100} className={classes.itemGrid}>
-                <img src={team7} alt="..." className={imageClasses} />
+                <img
+                  src={"assets/img/NewSuits/9.png"}
+                  alt="..."
+                  className={imageClasses}
+                />
               </GridItem>
               <h4 className={classes.cardTitle}>
-                Disco Astronaut #6574
+                DiscoNaut #5567
                 <br />
               </h4>
             </Card>
-          </GridItem> */}
-          {/* <GridItem xs={12} sm={12} md={4}>
+          </GridItem>
+          <GridItem xs={12} sm={12} md={4}>
             <Card plain>
               <GridItem xs={100} sm={100} md={100} className={classes.itemGrid}>
-                <img src={team8} alt="..." className={imageClasses} />
+                <img
+                  src={"assets/img/NewSuits/6.png"}
+                  alt="..."
+                  className={imageClasses}
+                />
               </GridItem>
               <h4 className={classes.cardTitle}>
-                Disco Astronaut #4632
+                DiscoNaut #9865
                 <br />
               </h4>
             </Card>
-          </GridItem> */}
-          {/* <GridItem xs={12} sm={12} md={4}>
+          </GridItem>
+          <GridItem xs={12} sm={12} md={4}>
             <Card plain>
               <GridItem xs={100} sm={100} md={100} className={classes.itemGrid}>
-                <img src={team9} alt="..." className={imageClasses} />
+                <img
+                  src={"assets/img/NewSuits/10.png"}
+                  alt="..."
+                  className={imageClasses}
+                />
               </GridItem>
               <h4 className={classes.cardTitle}>
-                Disco Astronaut #6574
+                DiscoNaut #378
                 <br />
               </h4>
             </Card>
-          </GridItem> */}
-        </GridContainer>
+          </GridItem>
+        </GridContainer> */}
       </div>
     </div>
   );

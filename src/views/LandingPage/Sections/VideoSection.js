@@ -2,11 +2,15 @@ import React from "react";
 // @material-ui/core components
 import { makeStyles } from "@material-ui/core/styles";
 
+// @material-ui/icons
+// import Brightness3 from "@material-ui/icons/Brightness3";
+// import Brightness5 from "@material-ui/icons/Brightness5";
+// import FlashOn from "@material-ui/icons/FlashOn";
 // core components
 import GridContainer from "components/Grid/GridContainer.js";
-import GridItem from "components/Grid/GridItem.js";
+import GridItem2 from "components/Grid/GridItem2.js";
 
-import styles from "assets/jss/material-kit-react/views/landingPageSections/videoStyle";
+import styles from "assets/jss/material-kit-react/views/landingPageSections/productStyle.js";
 
 const useStyles = makeStyles(styles);
 
@@ -15,18 +19,27 @@ export default function VideoSection() {
   return (
     <div className={classes.section}>
       <GridContainer justify="center">
-        <GridItem xs={12} sm={12} md={8}>
-          <h2 className={classes.title}>
-            Your Ticket to the Greatest Festival in the Universe
-          </h2>
-          {/* <h5 className={classes.description}>Overview</h5> */}
-        </GridItem>
+        <GridItem2 xs={0} sm={0} md={0}>
+          <video
+            autoPlay
+            loop
+            controls
+            muted
+            style={{
+              position: "absolute",
+              width: "100%",
+              left: "50%",
+              top: "50%",
+              height: "100%",
+              objectFit: "fill",
+              transform: "translate(-50%, -62%",
+              zIndex: "-1",
+            }}
+          >
+            <source src={"assets/mp4/DAC_promo.mp4"} type="video/mp4" />
+          </video>
+        </GridItem2>
       </GridContainer>
-      <div className={classes.videoContainer}>
-        <video loop autoPlay className={classes.video}>
-          <source src={"/assets/mp4/DAC_promo.mp4"} />
-        </video>
-      </div>
     </div>
   );
 }

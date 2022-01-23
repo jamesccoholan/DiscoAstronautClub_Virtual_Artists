@@ -33,7 +33,7 @@ export default function SectionCarousel() {
               <Carousel {...settings}>
                 <div>
                   <img
-                    src={"assets/img/da/2.png"}
+                    src={"assets/img/NewSuits/7.png"}
                     alt="First slide"
                     className="slick-image"
                   />
@@ -46,7 +46,7 @@ export default function SectionCarousel() {
                 </div>
                 <div>
                   <img
-                    src={"assets/img/da/3.png"}
+                    src={"assets/img/NewSuits/9.png"}
                     alt="Second slide"
                     className="slick-image"
                   />
@@ -59,7 +59,7 @@ export default function SectionCarousel() {
                 </div>
                 <div>
                   <img
-                    src={"assets/img/da/4.png"}
+                    src={"assets/img/NewSuits/10.png"}
                     alt="Third slide"
                     className="slick-image"
                   />
@@ -72,7 +72,7 @@ export default function SectionCarousel() {
                 </div>
                 <div>
                   <img
-                    src={"assets/img/da/8.png"}
+                    src={"assets/img/NewSuits/11.png"}
                     alt="Third slide"
                     className="slick-image"
                   />
@@ -85,7 +85,7 @@ export default function SectionCarousel() {
                 </div>
                 <div>
                   <img
-                    src={"assets/img/da/6.png"}
+                    src={"assets/img/NewSuits/12.png"}
                     alt="Third slide"
                     className="slick-image"
                   />
@@ -98,7 +98,7 @@ export default function SectionCarousel() {
                 </div>
                 <div>
                   <img
-                    src={"assets/img/da/7.png"}
+                    src={"assets/img/NewSuits/13.png"}
                     alt="Third slide"
                     className="slick-image"
                   />

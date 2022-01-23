@@ -2,6 +2,7 @@ import {
   primaryColor,
   warningColor,
   dangerColor,
+  goldColor,
   successColor,
   infoColor,
   roseColor,
@@ -28,6 +29,9 @@ const infoStyle = {
   },
   danger: {
     color: dangerColor,
+  },
+  gold: {
+    color: goldColor,
   },
   success: {
     color: successColor,
