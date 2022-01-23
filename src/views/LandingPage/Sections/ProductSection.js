@@ -32,7 +32,7 @@ export default function ProductSection() {
           <GridItem xs={12} sm={12} md={4}>
             <InfoArea
               title="10K NFT Collection"
-              description="Hi-res 3D generative art. Owning a Disconaut NFT represents an investment into the artist's expanding brand and community."
+              description="Hi-res 3D generative art. Disconauts will lean into a different muic culture. Each NFT will have an original, generative peice of music associated to it. Owning a Disconaut NFT represents an investment into the artist's expanding brand and community."
               icon={Brightness5}
               iconColor="success"
               vertical
@@ -41,7 +41,7 @@ export default function ProductSection() {
           <GridItem xs={12} sm={12} md={4}>
             <InfoArea
               title="Virtual Artists, Original Music"
-              description="The Disco Astronaut Club is an artist collective that will be releasing original music, videos, and cinematic content with on-chain ownership offered to NFT holders."
+              description="The Disco Astronaut Club is an artist collective that will be release original music, videos, and cinematic content across social media."
               icon={Brightness3}
               iconColor="info"
               vertical
