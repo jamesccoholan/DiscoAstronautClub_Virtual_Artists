@@ -74,7 +74,9 @@ const warningColor = "#ff9800";
 const dangerColor = "#f44336";
 const successColor = "#4caf50";
 const infoColor = "#00acc1";
-const roseColor = "#e91e63";
+const roseColor = "#b76e79";
+const purpleColor = "#6f158d";
+const redColor = "#a9000e";
 const grayColor = "#999999";
 const goldColor = "#d4af37";
 
@@ -197,6 +199,8 @@ export {
   roseColor,
   grayColor,
   goldColor,
+  redColor,
+  purpleColor,
   primaryBoxShadow,
   infoBoxShadow,
   successBoxShadow,

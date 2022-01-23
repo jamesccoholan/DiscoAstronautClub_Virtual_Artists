@@ -3,9 +3,9 @@ import React from "react";
 import { makeStyles } from "@material-ui/core/styles";
 
 // @material-ui/icons
-import Brightness3 from "@material-ui/icons/Brightness3";
-import Brightness5 from "@material-ui/icons/Brightness5";
-import FlashOn from "@material-ui/icons/FlashOn";
+import CollectionsSharp from "@material-ui/icons/CollectionsSharp";
+import LibraryMusicSharp from "@material-ui/icons/LibraryMusicSharp";
+import LocalActivitySharp from "@material-ui/icons/LocalActivitySharp";
 // core components
 import GridContainer from "components/Grid/GridContainer.js";
 import GridItem from "components/Grid/GridItem.js";
@@ -24,7 +24,6 @@ export default function ProductSection() {
           <h2 className={classes.title}>
             The First Virtually Native On-Chain Artist Collective
           </h2>
-          {/* <h5 className={classes.description}>Overview</h5> */}
         </GridItem>
       </GridContainer>
       <div>
@@ -32,9 +31,9 @@ export default function ProductSection() {
           <GridItem xs={12} sm={12} md={4}>
             <InfoArea
               title="10K NFT Collection"
-              description="Hi-res 3D generative art. Disconauts will lean into a different muic culture. Each NFT will have an original, generative peice of music associated to it. Owning a Disconaut NFT represents an investment into the artist's expanding brand and community."
-              icon={Brightness5}
-              iconColor="success"
+              description="Hi-res 3D generative art. Disconauts will lean into a different muic culture. Each NFT will have an original, generative peice of music associated to it."
+              icon={CollectionsSharp}
+              iconColor="red"
               vertical
             />
           </GridItem>
@@ -42,8 +41,8 @@ export default function ProductSection() {
             <InfoArea
               title="Virtual Artists, Original Music"
               description="The Disco Astronaut Club is an artist collective that will be release original music, videos, and cinematic content across social media."
-              icon={Brightness3}
-              iconColor="info"
+              icon={LibraryMusicSharp}
+              iconColor="gold"
               vertical
             />
           </GridItem>
@@ -51,8 +50,8 @@ export default function ProductSection() {
             <InfoArea
               title="Metaverse Concerts and Live Events"
               description="Disconauts play virtual shows in the Metaverse on board their Star-ships, on earth and on distant planets they discover."
-              icon={FlashOn}
-              iconColor="danger"
+              icon={LocalActivitySharp}
+              iconColor="purple"
               vertical
             />
           </GridItem>

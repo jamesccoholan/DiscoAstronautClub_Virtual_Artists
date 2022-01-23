@@ -51,6 +51,9 @@ InfoArea.propTypes = {
     "info",
     "rose",
     "gray",
+    "gold",
+    "red",
+    "purple",
   ]),
   vertical: PropTypes.bool,
 };

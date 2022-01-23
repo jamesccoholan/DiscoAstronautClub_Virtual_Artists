@@ -31,7 +31,7 @@ const team = [
   },
   {
     name: "Stephen",
-    job: "Front-End Dev and Smart Contracts",
+    job: "Web Dev and Smart Contracts",
     img: "5",
   },
   {

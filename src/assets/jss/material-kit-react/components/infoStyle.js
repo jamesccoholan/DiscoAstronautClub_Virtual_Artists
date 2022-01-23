@@ -3,6 +3,8 @@ import {
   warningColor,
   dangerColor,
   goldColor,
+  redColor,
+  purpleColor,
   successColor,
   infoColor,
   roseColor,
@@ -32,6 +34,12 @@ const infoStyle = {
   },
   gold: {
     color: goldColor,
+  },
+  red: {
+    color: redColor,
+  },
+  purple: {
+    color: purpleColor,
   },
   success: {
     color: successColor,
