@@ -46,7 +46,7 @@ const team = [
   },
   {
     name: "Liam",
-    job: "Story Development",
+    job: "Franchise Development",
     img: "11",
   },
   {

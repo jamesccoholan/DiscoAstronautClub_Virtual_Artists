@@ -26,18 +26,18 @@ export default function WorkSection() {
           </h4>
           <h4 className={classes.description}>Incredilbe Music</h4>
           <h4 className={classes.description}>
-            Next Generation Virtual Media and 3D Art
+            Next-Gen Immersive Virtual Media and 3D Art
           </h4>
           <h4 className={classes.description}>Unforgetable Live Events</h4>
           <h4 className={classes.description}>Luxury Fashion Branding</h4>
           <h2 className={classes.title}>NFT Holder Benefits</h2>
           <h4 className={classes.description}>NFT Price Floor Appreciation</h4>
-          <h4 className={classes.description}>Cut of music royalties</h4>
+          <h4 className={classes.description}>Cut of Music Royalties</h4>
           <h4 className={classes.description}>
             VIP access to DAC Concerts and Private Events
           </h4>
           <h4 className={classes.description}>
-            First Access to Our Virtual Concert Platform as it Develops
+            First Access to Our Virtual Concert Platform
           </h4>
           <h4 className={classes.description}>
             First Access to the DAC Video Game
@@ -53,35 +53,35 @@ export default function WorkSection() {
             Access to Exclusive and Limited Edition Luxury Fashion
           </h4>
           <h4 className={classes.description}>Access to Future Whitelists</h4>
-
           <h2 className={classes.title}>
-            Next Generation Immersive Virtual Media and 3D Art
+            The Most Sophisticated Media Operation in Web3
           </h2>
+          <h4 className={classes.description}></h4>
           <h4 className={classes.description}>
-            The DAC is accelerating towards becoming the most sophisticated
-            media operation in Web3. This means a higher bar for art, music and
-            visual media. To create radically compelling virtual media and bring
-            the Disconauts to life, we leverage advanced virtual production. The
-            art is photoreal, 3D and includes 10,000 unqiue Disconauts and
-            peices of music.
+            A higher bar for art, music and visual media. We leverage advanced
+            virtual production techniques to create radically compelling media
+            and bring the Disconauts to life. 10,000 unqiue Photoreal peices of
+            3D Art and generative music.
           </h4>
           <h2 className={classes.title}>Metasverse Concert Platform</h2>
           <h4 className={classes.description}>
-            Disconauts are ultra-realistic 3D models ready to perform virtual
-            concerts. The funding from Mint will directly go into developing a
-            virtual concert platform, giving out community premium access to
-            virtual festivals.
+            The full festival experience, virtualized.
+          </h4>
+          <h4 className={classes.description}>
+            Vritualized Music Festivals; Light Shows, Custom Visuals, Set
+            Pieces, Larger Than Life Venues, Mixed-Music.
           </h4>
           <h2 className={classes.title}>DAC Video Game</h2>
           <h4 className={classes.description}>
-            Play as your Disconaut, explore other planet, go to interplanetary
-            festivals, fight the overlord, and race your spaceships.
+            Play as your Disconaut, explore other planets, go to interplanetary
+            festivals, fight the overlord, and race your spaceships throughout
+            the universe.
           </h4>
           <h2 className={classes.title}>Original Music</h2>
           <h4 className={classes.description}>
-            The Disconaut collective will drop original music that the community
-            has an ownership stake in. Holders will get Music Roalities
-            accoridng to the number of NFTs they hold.
+            The Artist is an investible assset. DAC will have original music
+            drops that the community takes an ownership stake in. Holders will
+            get music royalties accoridng to the number of DAC NFTs they posess.
           </h4>
           <h2 className={classes.title}>Live Shows and Events</h2>
           <h4 className={classes.description}>
