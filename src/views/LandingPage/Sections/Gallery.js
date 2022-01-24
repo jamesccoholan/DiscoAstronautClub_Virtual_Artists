@@ -34,30 +34,30 @@ export default function Gallery() {
             <Card plain>
               <GridItem xs={100} sm={100} md={100} className={classes.itemGrid}>
                 <img
-                  src={"assets/img/NewSuits/2.png"}
+                  src={"assets/img/NewSuits/1.png"}
                   alt="..."
                   className={imageClasses}
                 />
               </GridItem>
-              <h4 className={classes.cardTitle}>
+              {/* <h4 className={classes.cardTitle}>
                 DiscoNaut #5555
                 <br />
-              </h4>
+              </h4> */}
             </Card>
           </GridItem>
           <GridItem xs={12} sm={12} md={4}>
             <Card plain>
               <GridItem xs={100} sm={100} md={100} className={classes.itemGrid}>
                 <img
-                  src={"assets/img/NewSuits/3.png"}
+                  src={"assets/img/NewSuits/9.png"}
                   alt="..."
                   className={imageClasses}
                 />
               </GridItem>
-              <h4 className={classes.cardTitle}>
+              {/* <h4 className={classes.cardTitle}>
                 DiscoNaut #6574
                 <br />
-              </h4>
+              </h4> */}
             </Card>
           </GridItem>
           <GridItem xs={12} sm={12} md={4}>
@@ -69,10 +69,10 @@ export default function Gallery() {
                   className={imageClasses}
                 />
               </GridItem>
-              <h4 className={classes.cardTitle}>
+              {/* <h4 className={classes.cardTitle}>
                 DiscoNaut #2143
                 <br />
-              </h4>
+              </h4> */}
             </Card>
           </GridItem>
         </GridContainer>

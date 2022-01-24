@@ -27,7 +27,7 @@ export default function ProductSection() {
           <GridItem xs={12} sm={12} md={4}>
             <InfoArea
               title="10K NFT Collection"
-              description="Hi-res 3D generative art. Disconauts will lean into a different muic culture. Each NFT will have an original, generative peice of music associated to it."
+              description="10,000 Unique Peices of Generative 3D Art and Music."
               icon={"/assets/img/RedChrome.png"}
               vertical
             />
@@ -35,15 +35,15 @@ export default function ProductSection() {
           <GridItem xs={12} sm={12} md={4}>
             <InfoArea
               title="Virtual Artists, Original Music"
-              description="The Disco Astronaut Club is an artist collective that will be release original music, videos, and cinematic content across social media."
+              description="Original Music, and Visual Media. Music Royalties Distributerd to NFT Holders."
               icon={"/assets/img/Star.png"}
               vertical
             />
           </GridItem>
           <GridItem xs={12} sm={12} md={4}>
             <InfoArea
-              title="Metaverse Concerts and Live Events"
-              description="Disconauts play virtual shows in the Metaverse on board their Star-ships, on earth and on distant planets they discover."
+              title="Metaverse Concerts and Premium Live Events"
+              description="Virtual Music Festivals, Live Concerts and Afterparties"
               icon={"/assets/img/BlueChrome.png"}
               vertical
             />

@@ -53,10 +53,10 @@ export default function LandingPage(props) {
                 <h2 className={classes.subtitle}>
                   Your Ticket to the Greatest Festival in the Universe
                 </h2>
-                <h4>A Next Generation Music NFT Project Minting in 2022</h4>
+                <h4>A Next Generation Music-NFT Project Minting in 2022</h4>
                 <br />
                 <Button
-                  color="gold"
+                  color="black"
                   size="lg"
                   href="https://youtu.be/ezRnFj08KlI"
                   target="_blank"
@@ -67,7 +67,7 @@ export default function LandingPage(props) {
                   Trailer
                 </Button>
                 <Button
-                  color="gold"
+                  color="black"
                   size="lg"
                   href="https://discord.com/invite/bKg4jryrrB"
                   target="_blank"
@@ -89,13 +89,13 @@ export default function LandingPage(props) {
       </div>
       <div>
         <VideoSection />
-        <Story />
+        <WorkSection />
         <div className={classNames(classes.main, classes.mainRaised)}>
           <div className={classes.container}>
             <Gallery />
           </div>
         </div>
-        <WorkSection />
+        <Story />
         <div className={classNames(classes.main, classes.mainRaised)}>
           <div className={classes.container}>
             <TeamSection />

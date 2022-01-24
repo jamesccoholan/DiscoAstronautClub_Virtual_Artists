@@ -24,7 +24,7 @@ export default function Story() {
             <GridItem xs={12} sm={8} md={6}>
               <h4 className={classes.description}>
                 {
-                  "The Disconauts are a group of passionate and creative exploratory and visionary rebels who band together, board starships, and blast off into blast off in search of adventure across the universe. They are fleeing their home planet, once a place of freedom, innovation, and creative expression, which has come under the power of a ruling Overlord. Social gatherings, music, and festivals had been banned and the people there live in fear. They oppose everything the Overlord stands for and the empire he commands."
+                  "The Disconauts are a group of exploratory rebels who band together, board starships, and blast off into blast off in search of adventure across the universe. They are fleeing their home planet, once a place of freedom, innovation, and creative expression, which has come under the power of a ruling Overlord. Social gatherings, music, and festivals had been banned and the people there live in fear. They oppose everything the Overlord stands for and the empire he commands."
                 }
               </h4>
             </GridItem>
