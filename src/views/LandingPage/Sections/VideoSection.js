@@ -25,6 +25,7 @@ export default function VideoSection() {
             loop
             controls
             muted
+            className={classes.video}
             style={{
               position: "absolute",
               width: "100%",
@@ -32,7 +33,7 @@ export default function VideoSection() {
               top: "50%",
               height: "100%",
               objectFit: "fill",
-              transform: "translate(-50%, -62%",
+              transform: "translate(-50%, -62%)",
               zIndex: "-1",
             }}
           >

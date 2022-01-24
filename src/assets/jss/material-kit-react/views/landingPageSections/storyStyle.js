@@ -2,7 +2,7 @@ import { title } from "assets/jss/material-kit-react.js";
 
 const storyStyle = {
   section: {
-    margin: "680px 0 140px 0",
+    margin: "70px 0 170px 0",
   },
   title: {
     ...title,
