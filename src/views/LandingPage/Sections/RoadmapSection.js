@@ -34,7 +34,9 @@ export default function WorkSection() {
           <h4 className={classes.description}>Luxury Fashion Branding</h4>
           <h2 className={classes.title}>NFT Holder Benefits</h2>
           <h4 className={classes.description}>NFT Price Floor Appreciation</h4>
-          <h4 className={classes.description}>Cut of Music Royalties</h4>
+          <h4 className={classes.description}>
+            A Percentage of Music Royalties
+          </h4>
           <h4 className={classes.description}>
             VIP access to DAC Concerts and Private Events
           </h4>
@@ -65,6 +67,14 @@ export default function WorkSection() {
             entertainment and bring the Disconauts to life. 10,000 unqiue
             Photoreal peices of 3D Art and generative music.
           </h4>
+          <h2 className={classes.title}>Original Music</h2>
+          <h4 className={classes.description}>
+            The Artist is an investible assset. DAC will have original music
+            drops that the community takes an ownership stake in. Holders will
+            get music royalties accoridng to the number of DAC NFTs they posess.
+            10,000 unique generative pieces of music will be ascribed to each
+            NFT.
+          </h4>
           <h2 className={classes.title}>Metaverse Concert Platform</h2>
           <h4 className={classes.description}>
             The full festival experience, virtualized.
@@ -74,25 +84,17 @@ export default function WorkSection() {
             Pieces, Larger Than Life Venues, Mixed-Music. Accessible through
             streaming services and VR.
           </h4>
-          <h2 className={classes.title}>DAC Video Game</h2>
-          <h4 className={classes.description}>
-            Play as your Disconaut, explore other planets, go to interplanetary
-            festivals, fight the overlord, and race your spaceships throughout
-            the universe.
-          </h4>
-          <h2 className={classes.title}>Original Music</h2>
-          <h4 className={classes.description}>
-            The Artist is an investible assset. DAC will have original music
-            drops that the community takes an ownership stake in. Holders will
-            get music royalties accoridng to the number of DAC NFTs they posess.
-            10,000 unique generative pieces of music will be ascribed to each
-            NFT.
-          </h4>
           <h2 className={classes.title}>Live Shows and Events</h2>
           <h4 className={classes.description}>
             Owning a DAC NFT acts as a VIP access token to live concerts, club
             nights, private events, access to DAC club-houses, and curated
             destination music festivals.
+          </h4>
+          <h2 className={classes.title}>DAC Video Game</h2>
+          <h4 className={classes.description}>
+            Play as your Disconaut, explore other planets, go to interplanetary
+            festivals, fight the overlord, and race your spaceships throughout
+            the universe.
           </h4>
           <h2 className={classes.title}>Luxury Fashion</h2>
           <h4 className={classes.description}>
