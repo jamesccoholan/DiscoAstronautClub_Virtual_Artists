@@ -19,6 +19,9 @@ const footerStyle = {
   right: {
     margin: "auto",
     float: "right!important",
+    "@media (max-width: 800px)": {
+      display: "none",
+    },
   },
   footer: {
     padding: "0.9375rem 0",
