@@ -24,7 +24,9 @@ export default function WorkSection() {
           <h4 className={classes.description}>
             The First On-Chain, Virtualy Native Media Franchise
           </h4>
-          <h4 className={classes.description}>Incredilbe Music</h4>
+          <h4 className={classes.description}>
+            Incredilbe Original and Generative Music
+          </h4>
           <h4 className={classes.description}>
             Next-Gen Immersive Virtual Media and 3D Art
           </h4>
@@ -59,17 +61,18 @@ export default function WorkSection() {
           <h4 className={classes.description}></h4>
           <h4 className={classes.description}>
             A higher bar for art, music and visual media. We leverage advanced
-            virtual production techniques to create radically compelling media
-            and bring the Disconauts to life. 10,000 unqiue Photoreal peices of
-            3D Art and generative music.
+            virtual production techniques to create radically compelling
+            entertainment and bring the Disconauts to life. 10,000 unqiue
+            Photoreal peices of 3D Art and generative music.
           </h4>
-          <h2 className={classes.title}>Metasverse Concert Platform</h2>
+          <h2 className={classes.title}>Metaverse Concert Platform</h2>
           <h4 className={classes.description}>
             The full festival experience, virtualized.
           </h4>
           <h4 className={classes.description}>
-            Vritualized Music Festivals; Light Shows, Custom Visuals, Set
-            Pieces, Larger Than Life Venues, Mixed-Music.
+            Virtualized Music Festivals; Light Shows, Custom Visuals, Set
+            Pieces, Larger Than Life Venues, Mixed-Music. Accessible through
+            streaming services and VR.
           </h4>
           <h2 className={classes.title}>DAC Video Game</h2>
           <h4 className={classes.description}>
@@ -82,12 +85,19 @@ export default function WorkSection() {
             The Artist is an investible assset. DAC will have original music
             drops that the community takes an ownership stake in. Holders will
             get music royalties accoridng to the number of DAC NFTs they posess.
+            10,000 unique generative pieces of music will be ascribed to each
+            NFT.
           </h4>
           <h2 className={classes.title}>Live Shows and Events</h2>
           <h4 className={classes.description}>
             Owning a DAC NFT acts as a VIP access token to live concerts, club
-            nights, private events, access to DAC Club-houses, and curated
+            nights, private events, access to DAC club-houses, and curated
             destination music festivals.
+          </h4>
+          <h2 className={classes.title}>Luxury Fashion</h2>
+          <h4 className={classes.description}>
+            Own the digital fashion, have access to it in real life. Where the
+            aestetique the DAC devents.
           </h4>
         </GridItem>
       </GridContainer>
