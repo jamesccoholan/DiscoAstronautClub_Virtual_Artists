@@ -25,7 +25,7 @@ export default function WorkSection() {
             The Disco Astronaut Club is the first on-chain, virtual native media
             franchise producing top of the line music, next generation visual
             media and art, and unforgetable live events. We are working hard to
-            establish the DAC with a strong community and brand.
+            establish the DAC with a strong community and brand!
           </h4>
           <h2 className={classes.title}>NFT Holder Benefits</h2>
           <h4 className={classes.description}>NFT Price Floor Appreciation</h4>
