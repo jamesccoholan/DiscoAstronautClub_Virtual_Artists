@@ -22,16 +22,10 @@ export default function WorkSection() {
         <GridItem cs={12} sm={12} md={8}>
           <h1 className={classes.title}>Roadmap</h1>
           <h4 className={classes.description}>
-<<<<<<< Updated upstream
             The Disco Astronaut Club is the first on-chain, virtual native media
             franchise producing top of the line music, next generation visual
             media and art, and unforgetable live events. We are working hard to
             establish the DAC with a strong community and brand.
-=======
-            The Disco Astronaut Club is the first on-chain, virtualy native
-            media franchise producing top of the line music, next generation
-            visual media, art, and unforgetable live events.
->>>>>>> Stashed changes
           </h4>
           <h2 className={classes.title}>NFT Holder Benefits</h2>
           <h4 className={classes.description}>NFT Price Floor Appreciation</h4>
@@ -40,7 +34,7 @@ export default function WorkSection() {
             VIP access to DAC Concerts and Private Events
           </h4>
           <h4 className={classes.description}>
-            First Access to Our Virtual Concert Platform
+            First Access to Our Virtual Concert Platform as it Develops
           </h4>
           <h4 className={classes.description}>
             First Access to the DAC Video Game
@@ -58,14 +52,15 @@ export default function WorkSection() {
           <h4 className={classes.description}>Access to Future Whitelists</h4>
 
           <h2 className={classes.title}>
-            Next Generation Art and Virtual Media
+            Next Generation Art and Virtual Media Production
           </h2>
           <h4 className={classes.description}>
-            The DAC aims is driving at becoming the most sophisticated Web3
-            media operation. This means a higher bar for art, music and visual
-            media. To create radically compelling live entertainment we leverage
+            The DAC aims is to be the most sophisticated media operation in
+            Web3. This means a higher bar for art, music and media. We leverage
             advanced virtual production techniques to bring the Disco Astronauts
-            to life. 10,000 unqiue generative peices of 3D art and Music.
+            to life, making radically compelling live entertainment. The art is
+            photoreal-3D and includes 10,000 unqiue Disconauts with a rarity
+            scale basded on attributes.
           </h4>
           <h2 className={classes.title}>Metasverse Concert Platform</h2>
           <h4 className={classes.description}>
