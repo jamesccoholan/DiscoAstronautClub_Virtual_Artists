@@ -22,7 +22,7 @@ import styles from "assets/jss/material-kit-react/views/landingPage.js";
 import ProductSection from "./Sections/ProductSection.js";
 import VideoSection from "./Sections/VideoSection.js";
 import TeamSection from "./Sections/TeamSection.js";
-import WorkSection from "./Sections/WorkSection.js";
+import WorkSection from "./Sections/RoadmapSection.js";
 import Gallery from "./Sections/Gallery.js";
 import Story from "./Sections/Story.js";
 // import FAQ from "./Sections/FAQ.js";

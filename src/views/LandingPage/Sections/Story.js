@@ -31,7 +31,7 @@ export default function Story() {
             <GridItem xs={12} sm={4} md={6}>
               <img
                 className={classes.image}
-                src={"/assets/img/story/Disconaut.png"}
+                src={"assets/img/story/Disconaut.png"}
               />
             </GridItem>
           </GridItem>
@@ -47,7 +47,7 @@ export default function Story() {
             <GridItem xs={12} sm={4} md={6}>
               <img
                 className={classes.image}
-                src={"/assets/img/story/Gathering.png"}
+                src={"assets/img/story/Gathering.png"}
               />
             </GridItem>
             <GridItem xs={12} sm={8} md={6}>
@@ -82,7 +82,7 @@ export default function Story() {
             <GridItem xs={12} sm={4} md={6} className={classes.right}>
               <img
                 className={classes.image}
-                src={"/assets/img/story/Party.png"}
+                src={"assets/img/story/Party.png"}
               />
             </GridItem>
           </GridItem>

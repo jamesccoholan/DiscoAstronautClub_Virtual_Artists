@@ -18,6 +18,9 @@ const storyStyle = {
   },
   descriptionRight: {
     marginLeft: "30px",
+    "@media (max-width: 800px)": {
+      marginLeft: "0",
+    },
   },
   textCenter: {
     textAlign: "center",
@@ -28,17 +31,29 @@ const storyStyle = {
   },
   sectionAreaMargin: {
     marginTop: "70px",
+    "@media (max-width: 800px)": {
+      marginTop: "30px",
+    },
   },
   sectionArea: {
     textAlign: "center",
     display: "flex",
     alignItems: "center",
     justifyContent: "space-between",
+    "@media (max-width: 800px)": {
+      display: "block",
+    },
   },
   image: {
     maxHeight: "300px",
     borderRadius: "25px",
     boxShadow: "5px 5px 5px #999",
+    "@media (max-width: 800px)": {
+      maxHeight: "250px",
+    },
+    "@media (max-width: 350px)": {
+      maxWidth: "280px",
+    },
   },
 };
 
