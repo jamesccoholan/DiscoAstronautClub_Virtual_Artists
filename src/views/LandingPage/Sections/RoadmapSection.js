@@ -22,11 +22,14 @@ export default function WorkSection() {
         <GridItem cs={12} sm={12} md={8}>
           <h1 className={classes.title}>Roadmap</h1>
           <h4 className={classes.description}>
-            The Disco Astronaut Club is the first on-chain, virtual native media
-            franchise producing top of the line music, next generation visual
-            media and art, and unforgetable live events. We are working hard to
-            establish the DAC with a strong community and brand.
+            The First On-Chain, Virtualy Native Media Franchise
           </h4>
+          <h4 className={classes.description}>Incredilbe Music</h4>
+          <h4 className={classes.description}>
+            Next Generation Virtual Media and 3D Art
+          </h4>
+          <h4 className={classes.description}>Unforgetable Live Events</h4>
+          <h4 className={classes.description}>Luxury Fashion Branding</h4>
           <h2 className={classes.title}>NFT Holder Benefits</h2>
           <h4 className={classes.description}>NFT Price Floor Appreciation</h4>
           <h4 className={classes.description}>Cut of music royalties</h4>
@@ -47,20 +50,20 @@ export default function WorkSection() {
             Holder Increasing Voting Rights in Project Activities
           </h4>
           <h4 className={classes.description}>
-            Access to Exclusive and Limited Edition Merch
+            Access to Exclusive and Limited Edition Luxury Fashion
           </h4>
           <h4 className={classes.description}>Access to Future Whitelists</h4>
 
           <h2 className={classes.title}>
-            Next Generation Art and Virtual Media Production
+            Next Generation Immersive Virtual Media and 3D Art
           </h2>
           <h4 className={classes.description}>
-            The DAC aims is to be the most sophisticated media operation in
-            Web3. This means a higher bar for art, music and media. We leverage
-            advanced virtual production techniques to bring the Disco Astronauts
-            to life, making radically compelling live entertainment. The art is
-            photoreal-3D and includes 10,000 unqiue Disconauts with a rarity
-            scale basded on attributes.
+            The DAC is accelerating towards becoming the most sophisticated
+            media operation in Web3. This means a higher bar for art, music and
+            visual media. To create radically compelling virtual media and bring
+            the Disconauts to life, we leverage advanced virtual production. The
+            art is photoreal, 3D and includes 10,000 unqiue Disconauts and
+            peices of music.
           </h4>
           <h2 className={classes.title}>Metasverse Concert Platform</h2>
           <h4 className={classes.description}>
