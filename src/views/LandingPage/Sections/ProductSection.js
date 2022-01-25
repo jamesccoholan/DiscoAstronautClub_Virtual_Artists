@@ -27,7 +27,7 @@ export default function ProductSection() {
           <GridItem xs={12} sm={12} md={4}>
             <InfoArea
               title="10K NFT Collection"
-              description="10,000 Unique Peices of Generative 3D Art and Music."
+              description="10,000 Unique Pieces of Generative 3D Art and Music."
               icon={"/assets/img/RedChrome.png"}
               vertical
             />
@@ -35,7 +35,7 @@ export default function ProductSection() {
           <GridItem xs={12} sm={12} md={4}>
             <InfoArea
               title="Virtual Artists, Original Music"
-              description="Original Music, and Visual Media. Music Royalties Distributerd to NFT Holders."
+              description="Music and Visual Media Drops. Royalties Distributed to NFT Holders."
               icon={"/assets/img/Star.png"}
               vertical
             />
@@ -43,7 +43,7 @@ export default function ProductSection() {
           <GridItem xs={12} sm={12} md={4}>
             <InfoArea
               title="Metaverse Concerts and Premium Live Events"
-              description="Virtual Music Festivals, Live Concerts and Exclusive Afterparties."
+              description="Virtual Music Festivals, Live Concerts and Exclusive After-parties."
               icon={"/assets/img/BlueChrome.png"}
               vertical
             />

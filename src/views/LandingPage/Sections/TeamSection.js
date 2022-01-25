@@ -45,7 +45,7 @@ const team = [
     img: "7",
   },
   {
-    name: "Liam",
+    name: "Jamison",
     job: "Franchise Development",
     img: "11",
   },

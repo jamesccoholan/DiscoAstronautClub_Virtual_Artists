@@ -24,7 +24,7 @@ export default function Story() {
             <GridItem xs={12} sm={8} md={6}>
               <h4 className={classes.description}>
                 {
-                  "The Disconauts are a group of exploratory rebels who band together, board starships, and blast off into blast off in search of adventure across the universe. They are fleeing their home planet, once a place of freedom, innovation, and creative expression, which has come under the power of a ruling Overlord. Social gatherings, music, and festivals had been banned and the people there live in fear. They oppose everything the Overlord stands for and the empire he commands."
+                  "The Disconauts are a group of exploratory rebels who band together, board star-ships, and blast into space in search of adventure across the universe. They are fleeing their home planet, once a place of freedom, innovation, and creative expression, which has come under the power of a ruling Overlord. Social gatherings, music, and festivals had been banned and the people there live in fear. The Disconauts oppose everything the Overlord stands for and the empire he commands."
                 }
               </h4>
             </GridItem>
@@ -58,7 +58,7 @@ export default function Story() {
                 )}
               >
                 {
-                  "A symbol of personal sovereignty and creative and technical expression, the Music Festival is the Disconauts key tool of rebellion. Strictly banned on their planet, the Disconauts use concerts as a way to prove their independence and establish their identities. Their mission, to throw the greatest festivals in the universe and establish utopian colonies in accordance with their ideals."
+                  "A symbol of personal sovereignty and creative and technical expression, the music festival is the Disconauts key tool of rebellion. Strictly banned on their planet, the Disconauts use concerts as a way to prove their independence and establish their identities. Their mission, to throw the greatest festivals in the universe and establish utopian colonies in accordance with their ideals."
                 }
               </h4>
             </GridItem>
@@ -75,7 +75,7 @@ export default function Story() {
             <GridItem xs={12} sm={8} md={6}>
               <h4 className={classes.description}>
                 {
-                  "And now, theyre landing on Earth, ready to bring incredible music and futuristic technology to experience virtual concerts in the Metaverse and DAC concerts taking place on different planets. Stay tuned to the Disconauts explore distant galaxies, find new planets and throw incredible festivals. Join the space fleet on mint to join the club."
+                  "And now, theyre landing on Earth, ready to bring incredible music and futuristic technology to experience Metaverse concerts and DAC shows taking place on distant planets. Stay tuned as the Disconauts explore the stars, find new planets and throw monumental music events. Join the space fleet on mint to join the club."
                 }
               </h4>
             </GridItem>

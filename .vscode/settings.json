@@ -8,5 +8,13 @@
     "amplify/backend/amplify-meta.json": true,
     "amplify/backend/awscloudformation": true
   }
-  , "editor.formatOnSave": true
+  ,
+  "editor.formatOnSave": true,
+  "cSpell.words": [
+    "Disconaut",
+    "Disconauts",
+    "Metaverse",
+    "roadmap",
+    "Roadmap"
+  ]
 }

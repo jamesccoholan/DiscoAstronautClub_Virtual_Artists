@@ -22,7 +22,7 @@ export default function RoadmapSection() {
           <h4 className={classes.description}>
             The Disco Astronaut Club is the first on-chain, virtual native media
             franchise producing top of the line music, next generation visual
-            media and art, and unforgetable live events. We are working hard to
+            media and art, and unforgettable live events. We are working hard to
             establish the DAC with a strong community and brand.
           </h4>
           <GridItem xs={12} sm={4} md={6} className={classes.imageContainer}>
@@ -73,12 +73,12 @@ export default function RoadmapSection() {
             Next Generation Art and Virtual Media Production
           </h2>
           <h4 className={classes.description}>
-            The DAC aims is to be the most sophisticated media operation in
+            The DAC aims to be the most sophisticated media operation in
             Web3. This means a higher bar for art, music and media. We leverage
             advanced virtual production techniques to bring the Disco Astronauts
             to life, making radically compelling live entertainment. The art is
-            photoreal-3D and includes 10,000 unqiue Disconauts with a rarity
-            scale basded on attributes.
+            photoreal-3D and includes 10,000 unique Disconauts with a rarity
+            scale based on attributes.
           </h4>
           <h2 className={classes.title}>Metasverse Concert Platform</h2>
           <h4 className={classes.description}>
@@ -95,8 +95,8 @@ export default function RoadmapSection() {
           <h2 className={classes.title}>Original Music</h2>
           <h4 className={classes.description}>
             The Disconaut collective will drop original music that the community
-            has an ownership stake in. Holders will get Music Roalities
-            accoridng to the number of NFTs they hold.
+            has an ownership stake in. Holders will get Music Royalties
+            according to the number of NFTs they hold.
           </h4>
           <h2 className={classes.title}>Live Shows and Events</h2>
           <h4 className={classes.description}>
