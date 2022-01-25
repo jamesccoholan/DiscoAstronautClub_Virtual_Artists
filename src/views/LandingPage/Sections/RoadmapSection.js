@@ -22,15 +22,15 @@ export default function WorkSection() {
         <GridItem cs={12} sm={12} md={8}>
           <h1 className={classes.title}>Roadmap</h1>
           <h4 className={classes.description}>
-            The First On-Chain, Virtualy Native Media Franchise
+            The First On-Chain, Virtually Native Media Franchise
           </h4>
           <h4 className={classes.description}>
-            Incredilbe Original and Generative Music
+            Incredible Original and Generative Music
           </h4>
           <h4 className={classes.description}>
             Next-Gen Immersive Virtual Media and 3D Art
           </h4>
-          <h4 className={classes.description}>Unforgetable Live Events</h4>
+          <h4 className={classes.description}>Unforgettable Live Events</h4>
           <h4 className={classes.description}>Luxury Fashion Branding</h4>
           <h2 className={classes.title}>NFT Holder Benefits</h2>
           <h4 className={classes.description}>NFT Price Floor Appreciation</h4>
@@ -64,14 +64,14 @@ export default function WorkSection() {
           <h4 className={classes.description}>
             A higher bar for art, music and visual media. We leverage advanced
             virtual production techniques to create radically compelling
-            entertainment and bring the Disconauts to life. 10,000 unqiue
-            Photoreal peices of 3D Art and generative music.
+            entertainment and bring the Disconauts to life. 10,000 unique
+            Photoreal pieces of 3D Art and generative music.
           </h4>
           <h2 className={classes.title}>Original Music</h2>
           <h4 className={classes.description}>
-            The Artist is an investible assset. DAC will have original music
+            The Artist is an investible asset. DAC will have original music
             drops that the community takes an ownership stake in. Holders will
-            get music royalties accoridng to the number of DAC NFTs they posess.
+            get music royalties according to the number of DAC NFTs they posses.
             10,000 unique generative pieces of music will be ascribed to each
             NFT.
           </h4>
@@ -98,8 +98,8 @@ export default function WorkSection() {
           </h4>
           <h2 className={classes.title}>Luxury Fashion</h2>
           <h4 className={classes.description}>
-            Own the digital fashion, have access to it in real life. Where the
-            aestetique the DAC devents.
+            Own the digital fashion, have access to it in real life. Wear the
+            aesthetic the DAC events.
           </h4>
         </GridItem>
       </GridContainer>
