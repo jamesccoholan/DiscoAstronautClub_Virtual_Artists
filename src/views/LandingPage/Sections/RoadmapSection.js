@@ -31,14 +31,14 @@ export default function WorkSection() {
             Next-Gen Immersive Virtual Media and 3D Art
           </h4>
           <h4 className={classes.description}>Unforgettable Live Events</h4>
-          <h4 className={classes.description}>Luxury Fashion Branding</h4>
+          <h4 className={classes.description}>Luxury Fashion</h4>
           <h2 className={classes.title}>NFT Holder Benefits</h2>
           <h4 className={classes.description}>NFT Price Floor Appreciation</h4>
           <h4 className={classes.description}>
             A Percentage of Music Royalties
           </h4>
           <h4 className={classes.description}>
-            VIP access to DAC Concerts and Private Events
+            VIP access to DAC Concerts, Private Events and Destination Festivals
           </h4>
           <h4 className={classes.description}>
             First Access to Our Virtual Concert Platform
@@ -65,7 +65,7 @@ export default function WorkSection() {
             A higher bar for art, music and visual media. We leverage advanced
             virtual production techniques to create radically compelling
             entertainment and bring the Disconauts to life. 10,000 unique
-            Photoreal pieces of 3D Art and generative music.
+            Photo-real pieces of 3D Art and generative music.
           </h4>
           <h2 className={classes.title}>Original Music</h2>
           <h4 className={classes.description}>
