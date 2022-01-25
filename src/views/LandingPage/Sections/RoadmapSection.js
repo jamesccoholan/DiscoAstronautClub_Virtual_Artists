@@ -80,9 +80,10 @@ export default function WorkSection() {
             The full festival experience, virtualized.
           </h4>
           <h4 className={classes.description}>
-            Virtualized Music Festivals; Light Shows, Custom Visuals, Set
-            Pieces, Larger Than Life Venues, and DJ Sets. Accessible through
-            streaming services and VR.
+            Virtualized Music Festivals; custom light shows and visuals, live DJ
+            Sets, and larger than life venues. Accessible through streaming
+            services and VR.
+            
           </h4>
           <h2 className={classes.title}>Live Shows and Events</h2>
           <h4 className={classes.description}>
