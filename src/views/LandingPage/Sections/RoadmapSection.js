@@ -38,7 +38,8 @@ export default function WorkSection() {
             A Percentage of Music Royalties
           </h4>
           <h4 className={classes.description}>
-            VIP access to DAC Concerts, Private Events and Destination Festivals
+            VIP Access to DAC Concerts, Private Events and Destination Music
+            Festivals
           </h4>
           <h4 className={classes.description}>
             First Access to Our Virtual Concert Platform
@@ -47,10 +48,10 @@ export default function WorkSection() {
             First Access to the DAC Video Game
           </h4>
           <h4 className={classes.description}>
-            VIP Access to DAC Concerts and Destination Music Festivals
+            VIP access to DAC Concerts and Destination Music Festivals
           </h4>
           <h4 className={classes.description}>
-            NFT Staking to Accumulate a Social / Governance Token, Giving the
+            NFT Staking to Accumulate a Social and Governance Token, Giving the
             Holder Increasing Voting Rights in Project Activities
           </h4>
           <h4 className={classes.description}>
@@ -62,18 +63,17 @@ export default function WorkSection() {
           </h2>
           <h4 className={classes.description}></h4>
           <h4 className={classes.description}>
-            A higher bar for art, music and visual media. We leverage advanced
-            virtual production techniques to create radically compelling
-            entertainment and bring the Disconauts to life. 10,000 unique
-            Photo-real pieces of 3D Art and generative music.
+            A higher bar for art, music and visual media. The DAC leverages
+            advanced virtual production techniques to create radically
+            compelling entertainment and bring the Disconauts to life.
           </h4>
           <h2 className={classes.title}>Original Music</h2>
           <h4 className={classes.description}>
-            The Artist is an investible asset. DAC will have original music
+            The artist as an investible asset. DAC will have original music
             drops that the community takes an ownership stake in. Holders will
             get music royalties according to the number of DAC NFTs they posses.
-            10,000 unique generative pieces of music will be ascribed to each
-            NFT.
+            10,000 unique generative pieces of music will be ascribed to the
+            NFTs.
           </h4>
           <h2 className={classes.title}>Metaverse Concert Platform</h2>
           <h4 className={classes.description}>
@@ -81,14 +81,14 @@ export default function WorkSection() {
           </h4>
           <h4 className={classes.description}>
             Virtualized Music Festivals; Light Shows, Custom Visuals, Set
-            Pieces, Larger Than Life Venues, Mixed-Music. Accessible through
+            Pieces, Larger Than Life Venues, and DJ Sets. Accessible through
             streaming services and VR.
           </h4>
           <h2 className={classes.title}>Live Shows and Events</h2>
           <h4 className={classes.description}>
             Owning a DAC NFT acts as a VIP access token to live concerts, club
-            nights, private events, access to DAC club-houses, and curated
-            destination music festivals.
+            nights, private events, DAC club-houses, and curated destination
+            music festivals.
           </h4>
           <h2 className={classes.title}>DAC Video Game</h2>
           <h4 className={classes.description}>
@@ -98,8 +98,8 @@ export default function WorkSection() {
           </h4>
           <h2 className={classes.title}>Luxury Fashion</h2>
           <h4 className={classes.description}>
-            Own the digital fashion, have access to it in real life. Wear the
-            aesthetic the DAC events.
+            Each Disconaut has a unique look that leans into various sub-genres
+            of music culture. Own the physical merchandise of your on-chain NFT.
           </h4>
         </GridItem>
       </GridContainer>
