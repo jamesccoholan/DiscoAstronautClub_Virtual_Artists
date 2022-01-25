@@ -50,9 +50,10 @@ const storyStyle = {
     boxShadow: "5px 5px 5px #999",
     "@media (max-width: 800px)": {
       maxHeight: "250px",
+      maxWidth: "300px",
     },
-    "@media (max-width: 350px)": {
-      maxWidth: "280px",
+    "@media (max-width: 550px)": {
+      maxWidth: "220px",
     },
   },
 };
