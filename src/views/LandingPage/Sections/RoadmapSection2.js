@@ -73,8 +73,8 @@ export default function RoadmapSection() {
             Next Generation Art and Virtual Media Production
           </h2>
           <h4 className={classes.description}>
-            The DAC aims to be the most sophisticated media operation in
-            Web3. This means a higher bar for art, music and media. We leverage
+            The DAC aims to be the most sophisticated media operation in Web3.
+            This means a higher bar for art, music and media. We leverage
             advanced virtual production techniques to bring the Disco Astronauts
             to life, making radically compelling live entertainment. The art is
             photoreal-3D and includes 10,000 unique Disconauts with a rarity
