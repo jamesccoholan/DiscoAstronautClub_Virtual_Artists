@@ -67,7 +67,7 @@ export default function WorkSection() {
           <h4 className={classes.description}>
             The Disco Astronaut Club is the first on-chain, virtual native media
             franchise producing top of the line music, next generation visual
-            media and art, and unforgetable live events. We are working hard to
+            media and art, and unforgettable live events. We are working hard to
             establish the DAC with a strong community and brand!
           </h4>
           <div className={classes.roadmapContainer}>
@@ -77,10 +77,10 @@ export default function WorkSection() {
                   <div className={classes.roadmapDotInner} />
                 </div>
                 <div className={classes.roadmapSection}>
-                  <h3 className={classes.roadmapPhase}>PHASE {r.phase}</h3>
+                  <h1 className={classes.roadmapPhase}>PHASE {r.phase}</h1>
                   {r.items.map((item) => (
                     <div key={item.title}>
-                      <h4 className={classes.roadmapItemTitle}>{item.title}</h4>
+                      <h3 className={classes.roadmapItemTitle}>{item.title}</h3>
                       <p>{item.description}</p>
                     </div>
                   ))}
