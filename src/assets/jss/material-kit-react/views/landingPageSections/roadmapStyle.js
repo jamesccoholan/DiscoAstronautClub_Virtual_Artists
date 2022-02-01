@@ -75,7 +75,7 @@ const roadmapStyle = {
   roadmapPhase: {
     fontWeight: "bold",
     fontSize: "44px",
-    letterSpacing: "0.135em",
+    letterSpacing: "0.125em",
     color: "#3C4858",
     marginBottom: "18px",
     marginTop: "0",
