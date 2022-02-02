@@ -4,15 +4,10 @@ import classNames from "classnames";
 // @material-ui/core components
 import { makeStyles } from "@material-ui/core/styles";
 
-// @material-ui/icons
-
 // core components
 import GridContainer from "components/Grid/GridContainer.js";
 import GridItem from "components/Grid/GridItem.js";
-// import Button from "components/CustomButtons/Button.js";
 import Card from "components/Card/Card.js";
-// import CardBody from "components/Card/CardBody.js";
-// import CardFooter from "components/Card/CardFooter.js";
 
 import styles from "assets/jss/material-kit-react/views/landingPageSections/teamStyle.js";
 
@@ -41,10 +36,6 @@ export default function Gallery() {
                   className={imageClasses}
                 />
               </GridItem>
-              {/* <h4 className={classes.cardTitle}>
-                DiscoNaut #5555
-                <br />
-              </h4> */}
             </Card>
           </GridItem>
           <GridItem xs={12} sm={12} md={4}>
@@ -58,10 +49,6 @@ export default function Gallery() {
                   className={imageClasses}
                 />
               </GridItem>
-              {/* <h4 className={classes.cardTitle}>
-                DiscoNaut #6574
-                <br />
-              </h4> */}
             </Card>
           </GridItem>
           <GridItem xs={12} sm={12} md={4}>
@@ -75,10 +62,6 @@ export default function Gallery() {
                   className={imageClasses}
                 />
               </GridItem>
-              {/* <h4 className={classes.cardTitle}>
-                DiscoNaut #2143
-                <br />
-              </h4> */}
             </Card>
           </GridItem>
         </GridContainer>
