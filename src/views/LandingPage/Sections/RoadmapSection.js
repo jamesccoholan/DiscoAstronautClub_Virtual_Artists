@@ -17,7 +17,7 @@ const useStyles = makeStyles(styles);
 const roadmapItems = [
   {
     phase: 1,
-    img: "HelmetIcon1.png",
+    img: "https://ik.imagekit.io/5ierklngtbt/img/Helmet_Icon_1_oJ6O6-rbJ?ik-sdk-version=javascript-1.4.3&updatedAt=1643768868927",
     items: [
       {
         title: "The Most Sophisticated Media Operation in Web3",
@@ -33,7 +33,7 @@ const roadmapItems = [
   },
   {
     phase: 2,
-    img: "HelmetIcon2.png",
+    img: "https://ik.imagekit.io/5ierklngtbt/img/Helmet_Icon_2_0C6lwYZ4I?ik-sdk-version=javascript-1.4.3&updatedAt=1643768902961",
     items: [
       {
         title: "Live Shows and Events",
@@ -49,7 +49,7 @@ const roadmapItems = [
   },
   {
     phase: 3,
-    img: "HelmetIcon3.png",
+    img: "https://ik.imagekit.io/5ierklngtbt/img/Helmet_Icon_3_HvuJndXuL?ik-sdk-version=javascript-1.4.3&updatedAt=1643768808897",
     items: [
       {
         title: "Metaverse Concert Platform",
@@ -80,11 +80,7 @@ export default function WorkSection() {
             {roadmapItems.map((r) => (
               <Fade duration={1000} bottom cascade key={r.phase}>
                 <div className={classes.roadmapSectionContainer}>
-                  <img
-                    src={`assets/img/${r.img}`}
-                    alt="..."
-                    className={classes.roadmapDot}
-                  />
+                  <img src={r.img} alt="..." className={classes.roadmapDot} />
                   <div className={classes.roadmapSection}>
                     <h1 className={classes.roadmapPhase}>PHASE {r.phase}</h1>
                     {r.items.map((item) => (

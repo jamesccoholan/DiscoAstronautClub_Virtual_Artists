@@ -31,7 +31,9 @@ export default function Story() {
             <GridItem xs={12} sm={4} md={6}>
               <img
                 className={classes.image}
-                src={"assets/img/story/Disconaut.png"}
+                src={
+                  "https://ik.imagekit.io/5ierklngtbt/img/story/Disconaut_93oDYnJ78?ik-sdk-version=javascript-1.4.3&updatedAt=1643773831802"
+                }
               />
             </GridItem>
           </GridItem>
@@ -47,7 +49,9 @@ export default function Story() {
             <GridItem xs={12} sm={4} md={6}>
               <img
                 className={classes.image}
-                src={"assets/img/story/Gathering.png"}
+                src={
+                  "https://ik.imagekit.io/5ierklngtbt/img/story/Gathering_iNsmL3lE3fp?ik-sdk-version=javascript-1.4.3&updatedAt=1643773858123"
+                }
               />
             </GridItem>
             <GridItem xs={12} sm={8} md={6}>
@@ -82,7 +86,9 @@ export default function Story() {
             <GridItem xs={12} sm={4} md={6} className={classes.right}>
               <img
                 className={classes.image}
-                src={"assets/img/story/Party.png"}
+                src={
+                  "https://ik.imagekit.io/5ierklngtbt/img/story/Party_D7ZilzNIt?ik-sdk-version=javascript-1.4.3&updatedAt=1643773798811"
+                }
               />
             </GridItem>
           </GridItem>
