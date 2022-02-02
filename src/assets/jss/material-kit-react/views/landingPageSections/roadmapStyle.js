@@ -15,6 +15,8 @@ const roadmapStyle = {
   description: {
     color: "#999",
     textAlign: "center",
+    maxWidth: "95%",
+    margin: "auto",
   },
   textCenter: {
     textAlign: "center",
@@ -41,6 +43,9 @@ const roadmapStyle = {
     "@media (max-width: 1000px)": {
       height: "50px",
       width: "50px",
+    },
+    "@media (max-width: 500px)": {
+      display: "none",
     },
   },
   roadmapPhase: {

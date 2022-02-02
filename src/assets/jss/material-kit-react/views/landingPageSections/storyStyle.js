@@ -49,7 +49,7 @@ const storyStyle = {
     borderRadius: "25px",
     boxShadow: "5px 5px 5px #999",
     "@media (max-width: 800px)": {
-      maxWidth: "300px",
+      maxWidth: "320px",
     },
   },
 };
