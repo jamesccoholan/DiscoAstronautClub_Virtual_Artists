@@ -29,7 +29,7 @@ export default function ProductSection() {
               title="10K NFT Collection"
               description="10,000 Unique Pieces of Generative 3D Art and Music."
               icon={
-                "https://ik.imagekit.io/5ierklngtbt/img/RedChrome_gefwascIV.png?ik-sdk-version=javascript-1.4.3&updatedAt=1643766064908"
+                "https://ik.imagekit.io/5ierklngtbt/img/Red_Chrome_Vn55ewCad?ik-sdk-version=javascript-1.4.3&updatedAt=1643768599156"
               }
               vertical
             />
