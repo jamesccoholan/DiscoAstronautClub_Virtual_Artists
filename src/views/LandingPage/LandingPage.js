@@ -47,7 +47,7 @@ export default function LandingPage(props) {
       <Parallax
         filter
         image={
-          "https://ik.imagekit.io/5ierklngtbt/img/DAC_Wide_6udAYM0dJ?ik-sdk-version=javascript-1.4.3&updatedAt=1643817251933"
+          "https://ik.imagekit.io/5ierklngtbt/img/DACWide_mib5GvxUw.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1643766020863"
         }
         alt="Disco Astronaut Club"
       >
