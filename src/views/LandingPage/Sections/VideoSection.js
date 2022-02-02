@@ -10,7 +10,7 @@ import { makeStyles } from "@material-ui/core/styles";
 import GridContainer from "components/Grid/GridContainer.js";
 import GridItem2 from "components/Grid/GridItem2.js";
 
-import styles from "assets/jss/material-kit-react/views/landingPageSections/productStyle.js";
+import styles from "assets/jss/material-kit-react/views/landingPageSections/videoStyle.js";
 
 const useStyles = makeStyles(styles);
 

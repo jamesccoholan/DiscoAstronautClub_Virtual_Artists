@@ -62,7 +62,7 @@ export default function LandingPage(props) {
                 <h4>A Next Generation Music-NFT Project Minting in 2022</h4>
                 <br />
                 <Button
-                  color="black"
+                  color="twitter"
                   size="lg"
                   href="https://youtu.be/ezRnFj08KlI"
                   target="_blank"
@@ -73,7 +73,7 @@ export default function LandingPage(props) {
                   Trailer
                 </Button>
                 <Button
-                  color="black"
+                  color="twitter"
                   size="lg"
                   href="https://discord.com/invite/bKg4jryrrB"
                   target="_blank"

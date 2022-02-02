@@ -4,6 +4,9 @@ const videoStyle = {
   section: {
     padding: "70px 0",
     textAlign: "center",
+    "@media (max-width: 500px)": {
+      display: "none",
+    },
   },
   title: {
     ...title,
