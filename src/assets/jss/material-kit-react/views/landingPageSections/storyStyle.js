@@ -13,7 +13,7 @@ const storyStyle = {
     textAlign: "center",
   },
   description: {
-    color: "#999",
+    color: "#3C4858",
     textAlign: "center",
   },
   descriptionRight: {

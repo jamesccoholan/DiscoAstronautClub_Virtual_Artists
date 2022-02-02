@@ -36,13 +36,8 @@ const roadmapStyle = {
   roadmapDot: {
     width: "54px",
     height: "54px",
-    padding: "8px",
-    background: "rgba(255, 255, 255, 0.2)",
-    borderRadius: "50%",
     position: "relative",
     zIndex: "99",
-    animation: "pulse 2s infinite",
-    boxShadow: "0 0 0 rgb(255 255 255 / 20%)",
     "@media (max-width: 1000px)": {
       height: "50px",
       width: "50px",
@@ -50,26 +45,6 @@ const roadmapStyle = {
     "@media (max-width: 500px)": {
       height: "40px",
       width: "40px",
-    },
-  },
-  roadmapDotInner: {
-    width: "100%",
-    height: "100%",
-    background: "#FFFFFF",
-    borderRadius: "50%",
-    boxShadow: "inset 0px 8px 4px rgb(0 0 0 / 25%)",
-    position: "relative",
-    "&:after": {
-      content: "",
-      width: "10px",
-      height: "10px",
-      borderRadius: "50%",
-      background: "#4DC3F4",
-      position: "absolute",
-      top: "50%",
-      left: "50%",
-      marginTop: "-5px",
-      marginLeft: "-5px",
     },
   },
   roadmapPhase: {

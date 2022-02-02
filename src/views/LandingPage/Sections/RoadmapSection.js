@@ -17,6 +17,7 @@ const useStyles = makeStyles(styles);
 const roadmapItems = [
   {
     phase: 1,
+    img: "HelmetIcon1.png",
     items: [
       {
         title: "The Most Sophisticated Media Operation in Web3",
@@ -32,6 +33,7 @@ const roadmapItems = [
   },
   {
     phase: 2,
+    img: "HelmetIcon2.png",
     items: [
       {
         title: "Live Shows and Events",
@@ -47,6 +49,7 @@ const roadmapItems = [
   },
   {
     phase: 3,
+    img: "HelmetIcon3.png",
     items: [
       {
         title: "Metaverse Concert Platform",
@@ -63,35 +66,39 @@ export default function WorkSection() {
     <div className={classes.section}>
       <GridContainer justify="center">
         <GridItem cs={12} sm={12} md={8}>
-          <Fade duration={1500} bottom cascade>
+          <Fade duration={1000} bottom cascade>
             <h1 className={classes.title}>Roadmap</h1>
             <h4 className={classes.description}>
               The Disco Astronaut Club is the first on-chain, virtual native
               media franchise producing top of the line music, next generation
-              visual media and art, and unforgetable live events. We are working
-              hard to establish the DAC with a strong community and brand!
+              visual media and art, and unforgettable live events. We are
+              working hard to establish the DAC with a strong community and
+              brand!
             </h4>
           </Fade>
           <div className={classes.roadmapContainer}>
             {roadmapItems.map((r) => (
-              <div key={r.phase} className={classes.roadmapSectionContainer}>
-                <Fade duration={1500} bottom cascade>
-                  <div className={classes.roadmapDot}>
-                    <div className={classes.roadmapDotInner} />
-                  </div>
+              <Fade duration={1000} bottom cascade key={r.phase}>
+                <div className={classes.roadmapSectionContainer}>
+                  <img
+                    src={`assets/img/${r.img}`}
+                    alt="..."
+                    className={classes.roadmapDot}
+                  />
                   <div className={classes.roadmapSection}>
-                    <h3 className={classes.roadmapPhase}>PHASE {r.phase}</h3>
+                    <h1 className={classes.roadmapPhase}>PHASE {r.phase}</h1>
                     {r.items.map((item) => (
                       <div key={item.title}>
-                        <h4 className={classes.roadmapItemTitle}>
+                        <h3 className={classes.roadmapItemTitle}>
                           {item.title}
-                        </h4>
+                        </h3>
                         <p>{item.description}</p>
                       </div>
                     ))}
                   </div>
-                </Fade>
-              </div>
+                  <div className={classes.roadmapDivider} />
+                </div>
+              </Fade>
             ))}
           </div>
         </GridItem>

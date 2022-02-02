@@ -42,7 +42,7 @@ export default function ProductSection() {
           </GridItem>
           <GridItem xs={12} sm={12} md={4}>
             <InfoArea
-              title="Metaverse Concerts and Premium Live Events"
+              title="Metaverse Concerts and Live Events"
               description="Virtual Music Festivals, Live Concerts and Exclusive After-parties."
               icon={"/assets/img/BlueChrome.png"}
               vertical

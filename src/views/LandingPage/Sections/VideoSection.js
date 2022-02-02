@@ -25,6 +25,8 @@ export default function VideoSection() {
             loop
             controls
             muted
+            playsinline
+            webkit-playsinline
             className={classes.video}
             style={{
               position: "absolute",
