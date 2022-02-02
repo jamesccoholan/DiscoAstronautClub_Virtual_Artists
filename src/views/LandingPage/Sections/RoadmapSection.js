@@ -80,7 +80,11 @@ export default function WorkSection() {
             {roadmapItems.map((r) => (
               <Fade duration={1000} bottom cascade key={r.phase}>
                 <div className={classes.roadmapSectionContainer}>
-                  <img src={r.img} alt="..." className={classes.roadmapDot} />
+                  <img
+                    src={r.img}
+                    alt="Disconaut Helmet"
+                    className={classes.roadmapDot}
+                  />
                   <div className={classes.roadmapSection}>
                     <h1 className={classes.roadmapPhase}>PHASE {r.phase}</h1>
                     {r.items.map((item) => (

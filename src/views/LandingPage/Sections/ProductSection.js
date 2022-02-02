@@ -31,6 +31,7 @@ export default function ProductSection() {
               icon={
                 "https://ik.imagekit.io/5ierklngtbt/img/Red_Chrome_Vn55ewCad?ik-sdk-version=javascript-1.4.3&updatedAt=1643768599156"
               }
+              alt="Disconaut NFT"
               vertical
             />
           </GridItem>
@@ -41,6 +42,7 @@ export default function ProductSection() {
               icon={
                 "https://ik.imagekit.io/5ierklngtbt/img/Star_LLdSyPIbfpw?ik-sdk-version=javascript-1.4.3&updatedAt=1643774062958"
               }
+              alt="Disconaut NFT"
               vertical
             />
           </GridItem>
@@ -51,6 +53,7 @@ export default function ProductSection() {
               icon={
                 "https://ik.imagekit.io/5ierklngtbt/img/Blue_Chrome_OaHZDzYOM?ik-sdk-version=javascript-1.4.3&updatedAt=1643768548208"
               }
+              alt="Disconaut NFT"
               vertical
             />
           </GridItem>

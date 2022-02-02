@@ -37,7 +37,7 @@ export default function Gallery() {
                   src={
                     "https://ik.imagekit.io/5ierklngtbt/img/NewSuits/1_I2RSdud2tNI?ik-sdk-version=javascript-1.4.3&updatedAt=1643769055023"
                   }
-                  alt="..."
+                  alt="Disconaut Suit"
                   className={imageClasses}
                 />
               </GridItem>
@@ -54,7 +54,7 @@ export default function Gallery() {
                   src={
                     "https://ik.imagekit.io/5ierklngtbt/img/NewSuits/9_1frbXBDJw?ik-sdk-version=javascript-1.4.3&updatedAt=1643773717216"
                   }
-                  alt="..."
+                  alt="Disconaut Suit"
                   className={imageClasses}
                 />
               </GridItem>
@@ -71,7 +71,7 @@ export default function Gallery() {
                   src={
                     "https://ik.imagekit.io/5ierklngtbt/img/NewSuits/4_2QbWZ8_lE?ik-sdk-version=javascript-1.4.3&updatedAt=1643773553282"
                   }
-                  alt="..."
+                  alt="Disconaut Suit"
                   className={imageClasses}
                 />
               </GridItem>
