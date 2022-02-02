@@ -42,10 +42,6 @@ const roadmapStyle = {
       height: "50px",
       width: "50px",
     },
-    "@media (max-width: 500px)": {
-      height: "40px",
-      width: "40px",
-    },
   },
   roadmapPhase: {
     fontWeight: "bold",
