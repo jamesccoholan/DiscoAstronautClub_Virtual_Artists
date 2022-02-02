@@ -28,7 +28,9 @@ export default function ProductSection() {
             <InfoArea
               title="10K NFT Collection"
               description="10,000 Unique Pieces of Generative 3D Art and Music."
-              icon={"/assets/img/RedChrome.png"}
+              icon={
+                "https://ik.imagekit.io/5ierklngtbt/img/RedChrome_gefwascIV.png?ik-sdk-version=javascript-1.4.3&updatedAt=1643766064908"
+              }
               vertical
             />
           </GridItem>
@@ -36,7 +38,9 @@ export default function ProductSection() {
             <InfoArea
               title="Virtual Artists, Original Music"
               description="Music and Visual Media Drops. Royalties Distributed to NFT Holders."
-              icon={"/assets/img/Star.png"}
+              icon={
+                "https://ik.imagekit.io/5ierklngtbt/img/Star_LLdSyPIbfpw?ik-sdk-version=javascript-1.4.3&updatedAt=1643774062958"
+              }
               vertical
             />
           </GridItem>
@@ -44,7 +48,9 @@ export default function ProductSection() {
             <InfoArea
               title="Metaverse Concerts and Live Events"
               description="Virtual Music Festivals, Live Concerts and Exclusive After-parties."
-              icon={"/assets/img/BlueChrome.png"}
+              icon={
+                "https://ik.imagekit.io/5ierklngtbt/img/Blue_Chrome_OaHZDzYOM?ik-sdk-version=javascript-1.4.3&updatedAt=1643768548208"
+              }
               vertical
             />
           </GridItem>

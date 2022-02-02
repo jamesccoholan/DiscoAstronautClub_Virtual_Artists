@@ -17,47 +17,47 @@ const team = [
   {
     name: "James",
     job: "Creative Director and Virtual Producer",
-    img: "2",
+    img: "https://ik.imagekit.io/5ierklngtbt/img/NewSuits/2_T0dR38pVf?ik-sdk-version=javascript-1.4.3&updatedAt=1643769195521",
   },
   {
     name: "Andy",
     job: "Partnerships, Promotion and Strategy",
-    img: "3",
+    img: "https://ik.imagekit.io/5ierklngtbt/img/NewSuits/3_xvb2rDJVx?ik-sdk-version=javascript-1.4.3&updatedAt=1643769156579",
   },
   {
     name: "Ilan",
     job: "Smart Contracts",
-    img: "4",
+    img: "https://ik.imagekit.io/5ierklngtbt/img/NewSuits/4_2QbWZ8_lE?ik-sdk-version=javascript-1.4.3&updatedAt=1643773553282",
   },
   {
     name: "Stephen",
     job: "Web Dev and Smart Contracts",
-    img: "5",
+    img: "https://ik.imagekit.io/5ierklngtbt/img/NewSuits/5_ufGRMXH-h?ik-sdk-version=javascript-1.4.3&updatedAt=1643773516872",
   },
   {
     name: "Dave",
     job: "Content Strategist and Promotion",
-    img: "6",
+    img: "https://ik.imagekit.io/5ierklngtbt/img/NewSuits/6_iaiuTA35f?ik-sdk-version=javascript-1.4.3&updatedAt=1643773577781",
   },
   {
     name: "Ben",
     job: "Music Production and Distribution",
-    img: "7",
+    img: "https://ik.imagekit.io/5ierklngtbt/img/NewSuits/7_gsewDuGLM?ik-sdk-version=javascript-1.4.3&updatedAt=1643773486839",
   },
   {
     name: "Jamison",
     job: "Franchise Development",
-    img: "11",
+    img: "https://ik.imagekit.io/5ierklngtbt/img/NewSuits/11_Sy5D6Z-YW?ik-sdk-version=javascript-1.4.3&updatedAt=1643773690863",
   },
   {
     name: "Dre",
     job: "Content Strategist and Promotion",
-    img: "9",
+    img: "https://ik.imagekit.io/5ierklngtbt/img/NewSuits/9_1frbXBDJw?ik-sdk-version=javascript-1.4.3&updatedAt=1643773717216",
   },
   {
     name: "Alex",
     job: "Video Production",
-    img: "12",
+    img: "https://ik.imagekit.io/5ierklngtbt/img/NewSuits/12_3G5yM3e2q?ik-sdk-version=javascript-1.4.3&updatedAt=1643773632536",
   },
 ];
 
@@ -80,11 +80,7 @@ export default function TeamSection() {
               <GridItem key={member.name} xs={12} sm={12} md={4}>
                 <Card plain>
                   <GridItem xs={12} sm={12} md={6} className={classes.itemGrid}>
-                    <img
-                      src={`assets/img/NewSuits/${member.img}.png`}
-                      alt="..."
-                      className={imageClasses}
-                    />
+                    <img src={member.img} alt="..." className={imageClasses} />
                   </GridItem>
                   <h4 className={classes.cardTitle}>
                     {member.name}

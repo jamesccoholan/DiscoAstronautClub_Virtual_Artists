@@ -34,7 +34,9 @@ export default function Gallery() {
             <Card plain>
               <GridItem xs={100} sm={100} md={100} className={classes.itemGrid}>
                 <img
-                  src={"assets/img/NewSuits/1.png"}
+                  src={
+                    "https://ik.imagekit.io/5ierklngtbt/img/NewSuits/1_I2RSdud2tNI?ik-sdk-version=javascript-1.4.3&updatedAt=1643769055023"
+                  }
                   alt="..."
                   className={imageClasses}
                 />
@@ -49,7 +51,9 @@ export default function Gallery() {
             <Card plain>
               <GridItem xs={100} sm={100} md={100} className={classes.itemGrid}>
                 <img
-                  src={"assets/img/NewSuits/9.png"}
+                  src={
+                    "https://ik.imagekit.io/5ierklngtbt/img/NewSuits/9_1frbXBDJw?ik-sdk-version=javascript-1.4.3&updatedAt=1643773717216"
+                  }
                   alt="..."
                   className={imageClasses}
                 />
@@ -64,7 +68,9 @@ export default function Gallery() {
             <Card plain>
               <GridItem xs={100} sm={100} md={100} className={classes.itemGrid}>
                 <img
-                  src={"assets/img/NewSuits/4.png"}
+                  src={
+                    "https://ik.imagekit.io/5ierklngtbt/img/NewSuits/4_2QbWZ8_lE?ik-sdk-version=javascript-1.4.3&updatedAt=1643773553282"
+                  }
                   alt="..."
                   className={imageClasses}
                 />

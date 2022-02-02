@@ -44,7 +44,12 @@ export default function LandingPage(props) {
         absolute
         {...rest}
       />
-      <Parallax filter image={"./assets/img/DACWide.jpg"}>
+      <Parallax
+        filter
+        image={
+          "https://ik.imagekit.io/5ierklngtbt/img/DACWide_mib5GvxUw.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1643766020863"
+        }
+      >
         <Fade duration={2000} bottom cascade>
           <div className={classes.container}>
             <GridContainer>
