@@ -30,7 +30,7 @@ export default function Gallery() {
               <GridItem xs={100} sm={100} md={100} className={classes.itemGrid}>
                 <img
                   src={
-                    "https://ik.imagekit.io/5ierklngtbt/img/NewSuits/1_I2RSdud2tNI?ik-sdk-version=javascript-1.4.3&updatedAt=1643769055023"
+                    "https://ik.imagekit.io/5ierklngtbt/img/NewSuits/1_07ghlq8zB?ik-sdk-version=javascript-1.4.3&updatedAt=1643819588268"
                   }
                   alt="Disconaut Suit"
                   className={imageClasses}
