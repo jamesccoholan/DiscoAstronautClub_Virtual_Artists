@@ -34,6 +34,7 @@ export default function Story() {
                 src={
                   "https://ik.imagekit.io/5ierklngtbt/img/story/Disconaut_93oDYnJ78?ik-sdk-version=javascript-1.4.3&updatedAt=1643773831802"
                 }
+                alt="Disconaut Scene"
               />
             </GridItem>
           </GridItem>
@@ -52,6 +53,7 @@ export default function Story() {
                 src={
                   "https://ik.imagekit.io/5ierklngtbt/img/story/Gathering_iNsmL3lE3fp?ik-sdk-version=javascript-1.4.3&updatedAt=1643773858123"
                 }
+                alt="Gathering Scene"
               />
             </GridItem>
             <GridItem xs={12} sm={8} md={6}>
@@ -89,6 +91,7 @@ export default function Story() {
                 src={
                   "https://ik.imagekit.io/5ierklngtbt/img/story/Party_D7ZilzNIt?ik-sdk-version=javascript-1.4.3&updatedAt=1643773798811"
                 }
+                alt="Party Scene"
               />
             </GridItem>
           </GridItem>

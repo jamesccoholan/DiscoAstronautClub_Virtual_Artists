@@ -47,8 +47,9 @@ export default function LandingPage(props) {
       <Parallax
         filter
         image={
-          "https://ik.imagekit.io/5ierklngtbt/img/DACWide_mib5GvxUw.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1643766020863"
+          "https://ik.imagekit.io/5ierklngtbt/img/DAC_Wide_6udAYM0dJ?ik-sdk-version=javascript-1.4.3&updatedAt=1643817251933"
         }
+        alt="Disco Astronaut Club"
       >
         <Fade duration={2000} bottom cascade>
           <div className={classes.container}>
@@ -78,7 +79,6 @@ export default function LandingPage(props) {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  {/* <i className="fas fa-play" /> */}
                   Discord
                 </Button>
               </GridItem>
@@ -89,7 +89,6 @@ export default function LandingPage(props) {
       <div className={classNames(classes.main, classes.mainRaised)}>
         <div className={classes.container}>
           <ProductSection />
-          {/* <FAQ /> */}
         </div>
       </div>
       <div>

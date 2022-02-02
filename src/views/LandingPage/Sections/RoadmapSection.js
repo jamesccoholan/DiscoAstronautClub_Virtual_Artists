@@ -2,8 +2,6 @@ import React from "react";
 // @material-ui/core components
 import { makeStyles } from "@material-ui/core/styles";
 
-// @material-ui/icons
-
 // core components
 import GridContainer from "components/Grid/GridContainer.js";
 import GridItem from "components/Grid/GridItem.js";
@@ -80,7 +78,11 @@ export default function WorkSection() {
             {roadmapItems.map((r) => (
               <Fade duration={1000} bottom cascade key={r.phase}>
                 <div className={classes.roadmapSectionContainer}>
-                  <img src={r.img} alt="..." className={classes.roadmapDot} />
+                  <img
+                    src={r.img}
+                    alt="Disconaut Helmet"
+                    className={classes.roadmapDot}
+                  />
                   <div className={classes.roadmapSection}>
                     <h1 className={classes.roadmapPhase}>PHASE {r.phase}</h1>
                     {r.items.map((item) => (
