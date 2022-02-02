@@ -2,7 +2,7 @@ import { title } from "assets/jss/material-kit-react.js";
 
 const roadmapStyle = {
   section: {
-    margin: "670px 0 70px 0",
+    margin: "670px auto 70px auto",
   },
   title: {
     ...title,
