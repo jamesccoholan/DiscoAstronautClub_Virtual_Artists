@@ -14,7 +14,7 @@ const storyStyle = {
   },
   description: {
     color: "#3C4858",
-    textAlign: "center",
+    textAlign: "left",
   },
   descriptionRight: {
     marginLeft: "30px",
