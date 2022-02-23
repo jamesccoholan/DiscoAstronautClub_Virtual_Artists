@@ -43,12 +43,22 @@ const roadmapItems = [
         description:
           "Access to Exclusive and Limited Edition Luxury Fashion Merchandise. Each Disconaut has a unique look that leans into various sub-genres of music culture. Own the physical merchandise of your on-chain NFT.",
       },
+      {
+        title: "Own The Moment",
+        description:
+          "Mint Collections from Disconaut Shows. Own a moment from that concert.",
+      },
     ],
   },
   {
     phase: 3,
     img: "https://ik.imagekit.io/5ierklngtbt/img/Helmet_Icon_3_HvuJndXuL?ik-sdk-version=javascript-1.4.3&updatedAt=1643768808897",
     items: [
+      {
+        title: "Mint 2",
+        description:
+          "10K Animated Disconauts dancing to 10K Original pieces of music. Fully animated, interactive lighting and music.",
+      },
       {
         title: "Metaverse Concert Platform",
         description:
