@@ -1,23 +1,23 @@
 {
-    "dev": {
-        "awscloudformation": {
-            "AuthRoleName": "amplify-discoastronautclub-dev-182135-authRole",
-            "UnauthRoleArn": "arn:aws:iam::757887447730:role/amplify-discoastronautclub-dev-182135-unauthRole",
-            "AuthRoleArn": "arn:aws:iam::757887447730:role/amplify-discoastronautclub-dev-182135-authRole",
-            "Region": "us-west-2",
-            "DeploymentBucketName": "amplify-discoastronautclub-dev-182135-deployment",
-            "UnauthRoleName": "amplify-discoastronautclub-dev-182135-unauthRole",
-            "StackName": "amplify-discoastronautclub-dev-182135",
-            "StackId": "arn:aws:cloudformation:us-west-2:757887447730:stack/amplify-discoastronautclub-dev-182135/5513f020-944f-11ec-8e1d-02f587ecb6e5",
-            "AmplifyAppId": "d1vb4e7xo7ow8n"
-        },
-        "categories": {
-            "hosting": {
-                "amplifyhosting": {
-                    "appId": "d1vb4e7xo7ow8n",
-                    "type": "manual"
-                }
-            }
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-discoastronautclub-dev-182135-authRole",
+      "UnauthRoleArn": "arn:aws:iam::757887447730:role/amplify-discoastronautclub-dev-182135-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::757887447730:role/amplify-discoastronautclub-dev-182135-authRole",
+      "Region": "us-west-2",
+      "DeploymentBucketName": "amplify-discoastronautclub-dev-182135-deployment",
+      "UnauthRoleName": "amplify-discoastronautclub-dev-182135-unauthRole",
+      "StackName": "amplify-discoastronautclub-dev-182135",
+      "StackId": "arn:aws:cloudformation:us-west-2:757887447730:stack/amplify-discoastronautclub-dev-182135/5513f020-944f-11ec-8e1d-02f587ecb6e5",
+      "AmplifyAppId": "d1vb4e7xo7ow8n"
+    },
+    "categories": {
+      "hosting": {
+        "amplifyhosting": {
+          "appId": "d1vb4e7xo7ow8n",
+          "type": "manual"
         }
+      }
     }
+  }
 }
