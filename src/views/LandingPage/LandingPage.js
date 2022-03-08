@@ -21,7 +21,7 @@ import styles from "assets/jss/material-kit-react/views/landingPage.js";
 // Sections for this page
 import ProductSection from "./Sections/ProductSection.js";
 import VideoSection from "./Sections/VideoSection.js";
-import TeamSection from "./Sections/TeamSection.js";
+// import TeamSection from "./Sections/TeamSection.js";
 import WorkSection from "./Sections/RoadmapSection.js";
 import Gallery from "./Sections/Gallery.js";
 import Story from "./Sections/Story.js";
@@ -75,11 +75,11 @@ export default function LandingPage(props) {
                 <Button
                   color="twitter"
                   size="lg"
-                  href="https://discord.com/invite/bKg4jryrrB"
+                  href="https://indd.adobe.com/view/30e69cf0-2477-4cb2-9c9a-e0696b616e06"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  Discord
+                  Whitepaper
                 </Button>
               </GridItem>
             </GridContainer>
@@ -101,9 +101,7 @@ export default function LandingPage(props) {
         </div>
         <Story />
         <div className={classNames(classes.main, classes.mainRaised)}>
-          <div className={classes.container}>
-            <TeamSection />
-          </div>
+          <div className={classes.container}>{/* <TeamSection /> */}</div>
         </div>
       </div>
       <Footer />
