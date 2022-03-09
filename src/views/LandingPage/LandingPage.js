@@ -72,7 +72,7 @@ export default function LandingPage(props) {
                   <i className="fas fa-play" />
                   Trailer
                 </Button>
-                <Button
+                {/* <Button
                   color="twitter"
                   size="lg"
                   href="https://indd.adobe.com/view/30e69cf0-2477-4cb2-9c9a-e0696b616e06"
@@ -80,7 +80,7 @@ export default function LandingPage(props) {
                   rel="noopener noreferrer"
                 >
                   Whitepaper
-                </Button>
+                </Button> */}
               </GridItem>
             </GridContainer>
           </div>
