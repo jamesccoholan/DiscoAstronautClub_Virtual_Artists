@@ -57,7 +57,7 @@ export default function LandingPage(props) {
               <GridItem xs={12} sm={12} md={6}>
                 <h1 className={classes.title}>Disco Astronaut Club</h1>
                 <h2 className={classes.subtitle}>
-                  Your Ticket to the Greatest Festival in the Universe
+                  Your Ticket to the Greatest Festival in the Universe.
                 </h2>
                 <h4>A Next Generation Music-NFT Project Minting in 2022</h4>
                 <br />
