@@ -12,7 +12,7 @@ import Footer from "components/Footer/Footer.js";
 import GridContainer from "components/Grid/GridContainer.js";
 import GridItem from "components/Grid/GridItem.js";
 import Button from "components/CustomButtons/Button.js";
-import HeaderLinks from "components/Header/HeaderLinks.js";
+// import HeaderLinks from "components/Header/HeaderLinks.js";
 import Parallax from "components/Parallax/Parallax.js";
 import Fade from "react-reveal/Fade";
 
@@ -40,7 +40,7 @@ export default function LandingPage(props) {
         color="transparent"
         routes={dashboardRoutes}
         brand="Disco Astronaut Club"
-        rightLinks={<HeaderLinks />}
+        // rightLinks={<HeaderLinks />}
         absolute
         {...rest}
       />
