@@ -25,7 +25,7 @@ const roadmapItems = [
       {
         title: "Original Music",
         description:
-          "A Percentage of Music Royalties. Incredible Original and Generative Music. The artist as an investible asset. DAC will have original music drops that the community takes an ownership stake in. Holders will get music royalties according to the number of DAC NFTs they posses. 10,000 unique generative pieces of music will be ascribed to the NFTs.",
+          "Incredible Original Music, DAC will have original music drops.",
       },
     ],
   },
@@ -59,11 +59,11 @@ const roadmapItems = [
         description:
           "10K Animated Disconauts dancing to 10K Original pieces of music. Fully animated, interactive lighting and music.",
       },
-      {
-        title: "Metaverse Concert Platform",
-        description:
-          "The full festival experience, virtualized. First Access to Our Virtual Concert Platform Virtualized Music Festivals; custom light shows and visuals, live DJ Sets, and larger than life venues. Accessible through streaming services and VR. NFT Staking to Accumulate a Social and Governance Token, Giving the Holder Increasing Voting Rights in Project Activities and Access to Future Whitelists.",
-      },
+      // {
+      //   title: "Metaverse Concert Platform",
+      //   description:
+      //     "The full festival experience, virtualized. First Access to Our Virtual Concert Platform Virtualized Music Festivals; custom light shows and visuals, live DJ Sets, and larger than life venues. Accessible through streaming services and VR. NFT Staking to Accumulate a Social and Governance Token, Giving the Holder Increasing Voting Rights in Project Activities and Access to Future Whitelists.",
+      // },
     ],
   },
 ];
