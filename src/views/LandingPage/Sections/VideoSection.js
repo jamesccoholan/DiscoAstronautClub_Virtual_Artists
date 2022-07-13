@@ -34,7 +34,7 @@ export default function VideoSection() {
               left: "50%",
               top: "50%",
               height: "100%",
-              objectFit: "fill",
+              objectFit: "cover",
               transform: "translate(-50%, -62%)",
               zIndex: "-1",
             }}
