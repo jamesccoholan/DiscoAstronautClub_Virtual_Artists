@@ -12,7 +12,7 @@ import Footer from "components/Footer/Footer.js";
 import GridContainer from "components/Grid/GridContainer.js";
 import GridItem from "components/Grid/GridItem.js";
 import Button from "components/CustomButtons/Button.js";
-// import HeaderLinks from "components/Header/HeaderLinks.js";
+import HeaderLinks from "components/Header/HeaderLinks.js";
 import Parallax from "components/Parallax/Parallax.js";
 import Fade from "react-reveal/Fade";
 
@@ -21,7 +21,7 @@ import styles from "assets/jss/material-kit-react/views/landingPage.js";
 // Sections for this page
 import ProductSection from "./Sections/ProductSection.js";
 import VideoSection from "./Sections/VideoSection.js";
-// import TeamSection from "./Sections/TeamSection.js";
+import TeamSection2 from "./Sections/TeamSection2.js";
 import WorkSection from "./Sections/RoadmapSection.js";
 import Gallery from "./Sections/Gallery.js";
 import Story from "./Sections/Story.js";
@@ -40,7 +40,7 @@ export default function LandingPage(props) {
         color="transparent"
         routes={dashboardRoutes}
         brand="Disco Astronaut Club"
-        // rightLinks={<HeaderLinks />}
+        rightLinks={<HeaderLinks />}
         absolute
         {...rest}
       />
@@ -101,7 +101,9 @@ export default function LandingPage(props) {
         </div>
         <Story />
         <div className={classNames(classes.main, classes.mainRaised)}>
-          <div className={classes.container}>{/* <TeamSection /> */}</div>
+          <div className={classes.container}>
+            <TeamSection2 />
+          </div>
         </div>
       </div>
       <Footer />

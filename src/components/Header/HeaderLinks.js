@@ -99,7 +99,7 @@ export default function HeaderLinks(props) {
           </Button>
         </Tooltip>
       </ListItem>
-      {/* <ListItem className={classes.listItem}>
+      <ListItem className={classes.listItem}>
         <Tooltip
           id="instagram-tooltip"
           title="Spotify"
@@ -115,8 +115,8 @@ export default function HeaderLinks(props) {
             <i className={classes.socialIcons + " fab fa-spotify"} />
           </Button>
         </Tooltip>
-      </ListItem> */}
-      {/* <ListItem className={classes.listItem}>
+      </ListItem>
+      <ListItem className={classes.listItem}>
         <Tooltip
           id="instagram-tooltip"
           title="SoundCloud"
@@ -132,8 +132,8 @@ export default function HeaderLinks(props) {
             <i className={classes.socialIcons + " fab fa-soundcloud"} />
           </Button>
         </Tooltip>
-      </ListItem> */}
-      {/* <ListItem className={classes.listItem}>
+      </ListItem>
+      <ListItem className={classes.listItem}>
         <Tooltip
           id="instagram-tooltip"
           title="Apple Music"
@@ -149,7 +149,7 @@ export default function HeaderLinks(props) {
             <i className={classes.socialIcons + " fab fa-apple"} />
           </Button>
         </Tooltip>
-      </ListItem> */}
+      </ListItem>
     </List>
   );
 }

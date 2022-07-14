@@ -9,7 +9,7 @@ import { makeStyles } from "@material-ui/core/styles";
 
 // @material-ui/icons
 
-// import HeaderLinks from "../Header/HeaderLinks.js";
+import HeaderLinks from "../Header/HeaderLinks.js";
 
 import styles from "assets/jss/material-kit-react/components/footerStyle.js";
 
@@ -32,7 +32,9 @@ export default function Footer(props) {
             </ListItem>
           </List>
         </div>
-        <div className={classes.right}>{/* <HeaderLinks /> */}</div>
+        <div className={classes.right}>
+          <HeaderLinks />
+        </div>
       </div>
     </footer>
   );

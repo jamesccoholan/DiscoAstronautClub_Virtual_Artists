@@ -97,7 +97,7 @@ const headerLinksStyle = (theme) => ({
   },
   socialIcons: {
     position: "relative",
-    fontSize: "20px !important",
+    fontSize: "35px !important",
     marginRight: "4px",
   },
   dropdownLink: {
