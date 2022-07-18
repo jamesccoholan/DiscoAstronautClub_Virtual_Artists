@@ -93,7 +93,7 @@ export default function LandingPage(props) {
         </div>
         <Story />
         <div className={classNames(classes.main, classes.mainRaised)}>
-          <div className={classes.container}>
+          <div>
             <TeamSection2 />
             <VideoSection2 />
           </div>
