@@ -43,7 +43,7 @@ export default function Gallery() {
               <GridItem xs={100} sm={100} md={100} className={classes.itemGrid}>
                 <img
                   src={
-                    "https://ik.imagekit.io/5ierklngtbt/img/NewSuits/9_nn8PuGDK0?ik-sdk-version=javascript-1.4.3&updatedAt=1643834347824"
+                    "https://ik.imagekit.io/mbhxghyf1m2/DAC_10_hHdbXGuxf.PNG?ik-sdk-version=javascript-1.4.3&updatedAt=1658151326377"
                   }
                   alt="Disconaut Suit"
                   className={imageClasses}
@@ -57,6 +57,47 @@ export default function Gallery() {
                 <img
                   src={
                     "https://ik.imagekit.io/5ierklngtbt/img/NewSuits/14_c2NJaspPcQM.png?ik-sdk-version=javascript-1.4.3&updatedAt=1643834233162"
+                  }
+                  alt="Disconaut Suit"
+                  className={imageClasses}
+                />
+              </GridItem>
+            </Card>
+          </GridItem>
+        </GridContainer>
+        <GridContainer>
+          <GridItem xs={12} sm={12} md={4}>
+            <Card plain>
+              <GridItem xs={100} sm={100} md={100} className={classes.itemGrid}>
+                <img
+                  src={
+                    "https://ik.imagekit.io/mbhxghyf1m2/DAC_9_DtTqSYA9e.PNG?ik-sdk-version=javascript-1.4.3&updatedAt=1658151325823"
+                  }
+                  alt="Disconaut Suit"
+                  className={imageClasses}
+                />
+              </GridItem>
+            </Card>
+          </GridItem>
+          <GridItem xs={12} sm={12} md={4}>
+            <Card plain>
+              <GridItem xs={100} sm={100} md={100} className={classes.itemGrid}>
+                <img
+                  src={
+                    "https://ik.imagekit.io/5ierklngtbt/img/NewSuits/9_nn8PuGDK0?ik-sdk-version=javascript-1.4.3&updatedAt=1643834347824"
+                  }
+                  alt="Disconaut Suit"
+                  className={imageClasses}
+                />
+              </GridItem>
+            </Card>
+          </GridItem>
+          <GridItem xs={12} sm={12} md={4}>
+            <Card plain>
+              <GridItem xs={100} sm={100} md={100} className={classes.itemGrid}>
+                <img
+                  src={
+                    "https://ik.imagekit.io/mbhxghyf1m2/DAC_6_2_6Q8ObvuG5.PNG?ik-sdk-version=javascript-1.4.3&updatedAt=1658151325665"
                   }
                   alt="Disconaut Suit"
                   className={imageClasses}

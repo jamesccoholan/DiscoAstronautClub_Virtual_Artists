@@ -21,6 +21,7 @@ import styles from "assets/jss/material-kit-react/views/landingPage.js";
 // Sections for this page
 import ProductSection from "./Sections/ProductSection.js";
 import VideoSection from "./Sections/VideoSection.js";
+import VideoSection2 from "./Sections/VideoSection2";
 import TeamSection2 from "./Sections/TeamSection2.js";
 import WorkSection from "./Sections/RoadmapSection.js";
 import Gallery from "./Sections/Gallery.js";
@@ -72,15 +73,6 @@ export default function LandingPage(props) {
                   <i className="fas fa-play" />
                   Trailer
                 </Button>
-                {/* <Button
-                  color="twitter"
-                  size="lg"
-                  href="https://indd.adobe.com/view/30e69cf0-2477-4cb2-9c9a-e0696b616e06"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  Whitepaper
-                </Button> */}
               </GridItem>
             </GridContainer>
           </div>
@@ -103,6 +95,7 @@ export default function LandingPage(props) {
         <div className={classNames(classes.main, classes.mainRaised)}>
           <div className={classes.container}>
             <TeamSection2 />
+            <VideoSection2 />
           </div>
         </div>
       </div>
