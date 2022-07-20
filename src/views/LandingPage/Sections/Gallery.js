@@ -35,6 +35,7 @@ export default function Gallery() {
                   alt="Disconaut Suit"
                   className={imageClasses}
                 />
+                <h2>Disconaut #73</h2>
               </GridItem>
             </Card>
           </GridItem>
@@ -48,6 +49,7 @@ export default function Gallery() {
                   alt="Disconaut Suit"
                   className={imageClasses}
                 />
+                <h2>Disconaut #89</h2>
               </GridItem>
             </Card>
           </GridItem>
@@ -61,6 +63,7 @@ export default function Gallery() {
                   alt="Disconaut Suit"
                   className={imageClasses}
                 />
+                <h2>Disconaut #4</h2>
               </GridItem>
             </Card>
           </GridItem>
@@ -76,6 +79,7 @@ export default function Gallery() {
                   alt="Disconaut Suit"
                   className={imageClasses}
                 />
+                <h2>Disconaut #22</h2>
               </GridItem>
             </Card>
           </GridItem>
@@ -89,6 +93,7 @@ export default function Gallery() {
                   alt="Disconaut Suit"
                   className={imageClasses}
                 />
+                <h2>Disconaut #56</h2>
               </GridItem>
             </Card>
           </GridItem>
@@ -102,6 +107,7 @@ export default function Gallery() {
                   alt="Disconaut Suit"
                   className={imageClasses}
                 />
+                <h2>Disconaut #18</h2>
               </GridItem>
             </Card>
           </GridItem>

@@ -59,11 +59,11 @@ const roadmapItems = [
         description:
           "10K Animated Disconauts dancing to 10K Original pieces of music. Fully animated, interactive lighting and music.",
       },
-      // {
-      //   title: "Metaverse Concert Platform",
-      //   description:
-      //     "The full festival experience, virtualized. First Access to Our Virtual Concert Platform Virtualized Music Festivals; custom light shows and visuals, live DJ Sets, and larger than life venues. Accessible through streaming services and VR. NFT Staking to Accumulate a Social and Governance Token, Giving the Holder Increasing Voting Rights in Project Activities and Access to Future Whitelists.",
-      // },
+      {
+        title: "Metaverse Concerts",
+        description:
+          "The full festival experience, virtualized. First Access to Our Virtual Concert Platform Virtualized Music Festivals; custom light shows and visuals, live DJ Sets, and larger than life venues. Accessible through streaming services and VR. NFT Staking to Accumulate a Social and Governance Token, Giving the Holder Increasing Voting Rights in Project Activities and Access to Future Whitelists.",
+      },
     ],
   },
 ];
@@ -76,10 +76,10 @@ export default function WorkSection() {
         <GridItem cs={12} sm={12} md={8}>
           <Fade duration={1000} bottom cascade>
             <div>
-              <h1 className={classes.title}>Roadmap</h1>
+              <h1 className={classes.title}>Who We Are</h1>
               <h4 className={classes.description}>
                 {
-                  "The Disco Astronaut Club is the first on-chain, virtual native media franchise producing top of the line music, next generation visual media and art, and unforgettable live events. We are working hard to establish the DAC with a strong community and brand!"
+                  "The Disco Astronaut Club home of the Disconauts is the first on-chain, virtual native artist producing top of the line music and next generation virtual concerts. We are working hard to establish the DAC with a strong community and brand!"
                 }
               </h4>
             </div>
@@ -88,13 +88,13 @@ export default function WorkSection() {
             {roadmapItems.map((r) => (
               <Fade duration={1000} bottom cascade key={r.phase}>
                 <div className={classes.roadmapSectionContainer}>
-                  <img
+                  {/* <img
                     src={r.img}
                     alt="Disconaut Helmet"
                     className={classes.roadmapDot}
-                  />
+                  /> */}
                   <div className={classes.roadmapSection}>
-                    <h1 className={classes.roadmapPhase}>PHASE {r.phase}</h1>
+                    {/* <h1 className={classes.roadmapPhase}>PHASE {r.phase}</h1> */}
                     {r.items.map((item) => (
                       <div key={item.title}>
                         <h3 className={classes.roadmapItemTitle}>

@@ -19,13 +19,13 @@ export default function Story() {
     <div className={classes.section}>
       <Fade duration={2000} bottom cascade>
         <GridContainer justify="center">
-          <h2 className={classes.title}>The Disco Astronaut Club</h2>
+          <h1 className={classes.title}>The Story So Far...</h1>
           <br />
           <GridItem xs={12} sm={10} md={10} className={classes.sectionArea}>
             <GridItem xs={12} sm={8} md={6}>
               <h4 className={classes.description}>
                 {
-                  "The Disconauts are a group of exploratory rebels who band together, board star-ships, and blast into space in search of adventure across the universe. They are fleeing their home planet, once a place of freedom, innovation, and creative expression, which has come under the power of a ruling Overlord. Social gatherings, music, and festivals had been banned and the people there live in fear. The Disconauts oppose everything the Overlord stands for and the empire he commands."
+                  "Meet Disconaut. are a group of exploratory rebels who band together, board star-ships, and blast into space in search of adventure across the universe. They are fleeing their home planet, once a place of freedom, innovation, and creative expression, which has come under the power of a ruling Overlord. Social gatherings, music, and festivals had been banned and the people there live in fear. The Disconauts oppose everything the Overlord stands for and the empire he commands."
                 }
               </h4>
             </GridItem>

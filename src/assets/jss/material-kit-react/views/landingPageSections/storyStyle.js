@@ -45,9 +45,11 @@ const storyStyle = {
     },
   },
   image: {
+    width: "auto%",
+    height: "auto%",
     maxHeight: "300px",
-    borderRadius: "25px",
-    boxShadow: "5px 5px 5px #999",
+    borderRadius: "10px",
+    boxShadow: "10px 10px 10px #999",
     "@media (max-width: 800px)": {
       maxWidth: "320px",
     },
