@@ -7,6 +7,8 @@ import GridContainer from "components/Grid/GridContainer.js";
 import GridItem from "components/Grid/GridItem.js";
 // import InfoArea from "components/InfoArea/InfoArea.js";
 
+import ReactSoundCloud from "react-soundcloud-embedded";
+
 import styles from "assets/jss/material-kit-react/views/landingPageSections/productStyle.js";
 
 const useStyles = makeStyles(styles);
@@ -19,6 +21,15 @@ export default function ProductSection() {
         <GridItem xs={12} sm={12} md={8}>
           <h1 className={classes.title}>Metaverse Crypto House DJs</h1>
         </GridItem>
+        <div>
+          <label>DAC SoundCloud:</label>
+          <ReactSoundCloud
+            url={
+              "https://soundcloud.com/nyukca/atmos?utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing"
+            }
+          />
+        </div>
+        ;
       </GridContainer>
       <div>
         <GridContainer>
