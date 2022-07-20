@@ -5,7 +5,7 @@ import { makeStyles } from "@material-ui/core/styles";
 // core components
 import GridContainer from "components/Grid/GridContainer.js";
 import GridItem from "components/Grid/GridItem.js";
-import InfoArea from "components/InfoArea/InfoArea.js";
+// import InfoArea from "components/InfoArea/InfoArea.js";
 
 import styles from "assets/jss/material-kit-react/views/landingPageSections/productStyle.js";
 
@@ -17,43 +17,55 @@ export default function ProductSection() {
     <div className={classes.section}>
       <GridContainer justify="center">
         <GridItem xs={12} sm={12} md={8}>
-          <h2 className={classes.title}>Metaverse Crypto House DJs</h2>
+          <h1 className={classes.title}>Metaverse Crypto House DJs</h1>
         </GridItem>
       </GridContainer>
       <div>
         <GridContainer>
           <GridItem xs={12} sm={12} md={4}>
-            <InfoArea
-              title="Virtual Concerts"
+            <img src="https://ik.imagekit.io/5ierklngtbt/img/Red_Chrome_Vn55ewCad?ik-sdk-version=javascript-1.4.3&updatedAt=1643768599156" />
+            {/* <InfoArea
+              title="Virtual Artists"
               // description="100 Unique Disconauts for Early Fans to Own"
               icon={
                 "https://ik.imagekit.io/5ierklngtbt/img/Red_Chrome_Vn55ewCad?ik-sdk-version=javascript-1.4.3&updatedAt=1643768599156"
               }
               alt="Disconaut NFT"
               vertical
-            />
+            /> */}
+            <GridItem>
+              <h2 className={classes.title}>Virtual Artists</h2>
+            </GridItem>
           </GridItem>
           <GridItem xs={12} sm={12} md={4}>
-            <InfoArea
-              title="Virtual Artists"
+            <img src="https://ik.imagekit.io/5ierklngtbt/img/Star_LLdSyPIbfpw?ik-sdk-version=javascript-1.4.3&updatedAt=1643774062958" />
+            <GridItem>
+              <h2 className={classes.title}>Virtual Concerts</h2>
+            </GridItem>
+            {/* <InfoArea
+              title="Virtual Concerts"
               // description="Music and Visual Media Drops"
               icon={
                 "https://ik.imagekit.io/5ierklngtbt/img/Star_LLdSyPIbfpw?ik-sdk-version=javascript-1.4.3&updatedAt=1643774062958"
               }
               alt="Disconaut NFT"
               vertical
-            />
+            /> */}
           </GridItem>
           <GridItem xs={12} sm={12} md={4}>
-            <InfoArea
-              title="Community Owned NFTs"
+            <img src="https://ik.imagekit.io/5ierklngtbt/img/Blue_Chrome_OaHZDzYOM?ik-sdk-version=javascript-1.4.3&updatedAt=1643768548208" />
+            {/* <InfoArea
+              title="NFTs"
               // description="Virtual Music Festivals, Live Concerts and Exclusive After-parties."
               icon={
                 "https://ik.imagekit.io/5ierklngtbt/img/Blue_Chrome_OaHZDzYOM?ik-sdk-version=javascript-1.4.3&updatedAt=1643768548208"
               }
               alt="Disconaut NFT"
               vertical
-            />
+            /> */}
+            <GridItem>
+              <h2 className={classes.title}>NFTs</h2>
+            </GridItem>
           </GridItem>
         </GridContainer>
         <GridContainer justify="center">
