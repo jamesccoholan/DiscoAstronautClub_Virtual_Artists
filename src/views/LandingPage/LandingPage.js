@@ -22,9 +22,10 @@ import styles from "assets/jss/material-kit-react/views/landingPage.js";
 import ProductSection from "./Sections/ProductSection.js";
 import VideoSection from "./Sections/VideoSection.js";
 import VideoSection2 from "./Sections/VideoSection2";
-import TeamSection2 from "./Sections/TeamSection2.js";
+// import TeamSection2 from "./Sections/TeamSection2.js";
 import WorkSection from "./Sections/RoadmapSection.js";
 import Gallery from "./Sections/Gallery.js";
+import Music from "./Sections/Music.js";
 import Story from "./Sections/Story.js";
 // import FAQ from "./Sections/FAQ.js";
 
@@ -93,8 +94,11 @@ export default function LandingPage(props) {
         </div>
         <Story />
         <div className={classNames(classes.main, classes.mainRaised)}>
+          <div className={classes.container}></div>
+        </div>
+        <div className={classNames(classes.main, classes.mainRaised)}>
           <div>
-            <TeamSection2 />
+            <Music />
             <VideoSection2 />
           </div>
         </div>
