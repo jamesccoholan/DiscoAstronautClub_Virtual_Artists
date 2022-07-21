@@ -11,9 +11,6 @@ import Card from "components/Card/Card.js";
 
 import styles from "assets/jss/material-kit-react/views/landingPageSections/teamStyle.js";
 
-import "react-responsive-carousel/lib/styles/carousel.min.css";
-import { Carousel } from "react-responsive-carousel";
-
 const useStyles = makeStyles(styles);
 
 export default function Gallery() {
@@ -28,41 +25,6 @@ export default function Gallery() {
       <div>
         <h2 className={classes.title}>Gallery</h2>
         <GridContainer>
-          <Carousel>
-            <div>
-              <img src="/assets/17.PNG" />
-
-              <p className="legend">Legend 1</p>
-            </div>
-            <div>
-              <img src="assets/DAC_9.PNG" />
-              <p className="legend">Legend 2</p>
-            </div>
-            <div>
-              <img src="assets/DAC_10.PNG" />
-              <p className="legend">Legend 3</p>
-            </div>
-            <div>
-              <img src="assets/2.JPG" />
-              <p className="legend">Legend 3</p>
-            </div>
-            <div>
-              <img src="assets/DAC_10.PNG" />
-              <p className="legend">Legend 3</p>
-            </div>
-            <div>
-              <img src="assets/DAC_10.PNG" />
-              <p className="legend">Legend 3</p>
-            </div>
-            <div>
-              <img src="assets/DAC_10.PNG" />
-              <p className="legend">Legend 3</p>
-            </div>
-            <div>
-              <img src="assets/DAC_10.PNG" />
-              <p className="legend">Legend 3</p>
-            </div>
-          </Carousel>
           <GridItem xs={12} sm={12} md={4}>
             <Card plain>
               <GridItem xs={100} sm={100} md={100} className={classes.itemGrid}>
