@@ -3,6 +3,7 @@ import React from "react";
 import classNames from "classnames";
 // @material-ui/core components
 import { makeStyles } from "@material-ui/core/styles";
+// import { TikTok } from "react-tiktok";
 
 // core components
 import GridContainer from "components/Grid/GridContainer.js";
@@ -12,7 +13,7 @@ import Card from "components/Card/Card.js";
 import styles from "assets/jss/material-kit-react/views/landingPageSections/teamStyle.js";
 
 import "react-responsive-carousel/lib/styles/carousel.min.css";
-import { Carousel } from "react-responsive-carousel";
+// import { Carousel } from "react-responsive-carousel";
 
 const useStyles = makeStyles(styles);
 
@@ -26,9 +27,18 @@ export default function Gallery() {
   return (
     <div className={classes.section}>
       <div>
+        {/* <iframe
+          src="https://opensea.io/collection/thepotatoz?embed=true"
+          width="100%"
+          height="100%"
+          frameBorder="0"
+          allowFullScreen
+          marginHeight={"1000px"}
+        /> */}
         <h2 className={classes.title}>Gallery</h2>
         <GridContainer>
-          <Carousel>
+          {/* <TikTok url="https://www.tiktok.com/@scout2015/video/6718335390845095173" /> */}
+          {/* <Carousel>
             <div>
               <img src="/assets/17.PNG" />
 
@@ -62,7 +72,7 @@ export default function Gallery() {
               <img src="assets/DAC_10.PNG" />
               <p className="legend">Legend 3</p>
             </div>
-          </Carousel>
+          </Carousel> */}
           <GridItem xs={12} sm={12} md={4}>
             <Card plain>
               <GridItem xs={100} sm={100} md={100} className={classes.itemGrid}>
