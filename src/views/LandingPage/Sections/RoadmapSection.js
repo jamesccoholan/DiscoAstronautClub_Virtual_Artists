@@ -17,11 +17,11 @@ const roadmapItems = [
     phase: 1,
     img: "https://ik.imagekit.io/5ierklngtbt/img/Helmet_Icon_1_oJ6O6-rbJ?ik-sdk-version=javascript-1.4.3&updatedAt=1643768868927",
     items: [
-      {
-        title: "The Most Sophisticated Media Operation in Web3",
-        description:
-          "NFT Mint. The First On-Chain, Virtually Native Media Franchise. A higher bar for art, music and visual media. The DAC leverages advanced virtual production techniques to create radically compelling entertainment and bring the Disconauts to life. Next-Gen Immersive Virtual Media and 3D Art.",
-      },
+      // {
+      //   title: "The Most Sophisticated Media Operation in Web3",
+      //   description:
+      //     "NFT Mint. The First On-Chain, Virtually Native Media Franchise. A higher bar for art, music and visual media. The DAC leverages advanced virtual production techniques to create radically compelling entertainment and bring the Disconauts to life. Next-Gen Immersive Virtual Media and 3D Art.",
+      // },
       {
         title: "Original Music",
         description:

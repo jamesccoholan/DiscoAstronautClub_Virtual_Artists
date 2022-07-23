@@ -71,8 +71,8 @@ export default function ProductSection() {
         <GridContainer justify="center">
           <h2 className={classes.title}> </h2>
         </GridContainer>
-        {/* <div>
-          <img
+        <div>
+          {/* <img
             padding="20%"
             position="absolute"
             width="100%"
@@ -105,8 +105,8 @@ export default function ProductSection() {
             transform="translate(-50%, -62%"
             zIndex="-1"
             src="https://ik.imagekit.io/mbhxghyf1m2/Untitled_Linked_Comp_01__0-01-56-11__Abjh-ESvXB.png?ik-sdk-version=javascript-1.4.3&updatedAt=1658323676462"
-          />
-        </div> */}
+          /> */}
+        </div>
       </div>
     </div>
   );

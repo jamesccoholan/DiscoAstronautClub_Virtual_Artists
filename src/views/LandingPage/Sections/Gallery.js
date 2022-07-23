@@ -14,6 +14,7 @@ import styles from "assets/jss/material-kit-react/views/landingPageSections/team
 
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 // import { Carousel } from "react-responsive-carousel";
+// import InstagramEmbed from "react-instagram-embed";
 
 const useStyles = makeStyles(styles);
 
@@ -37,6 +38,19 @@ export default function Gallery() {
         /> */}
         <h2 className={classes.title}>Gallery</h2>
         <GridContainer>
+          {/* <InstagramEmbed
+            url="https://instagr.am/p/Zw9o4/"
+            clientAccessToken="123|456"
+            maxWidth={320}
+            hideCaption={false}
+            containerTagName="div"
+            protocol=""
+            injectScript
+            onLoading={() => {}}
+            onSuccess={() => {}}
+            onAfterRender={() => {}}
+            onFailure={() => {}}
+          /> */}
           {/* <TikTok url="https://www.tiktok.com/@scout2015/video/6718335390845095173" /> */}
           {/* <Carousel>
             <div>
@@ -136,12 +150,12 @@ export default function Gallery() {
               <GridItem xs={100} sm={100} md={100} className={classes.itemGrid}>
                 <img
                   src={
-                    "https://ik.imagekit.io/5ierklngtbt/img/NewSuits/9_nn8PuGDK0?ik-sdk-version=javascript-1.4.3&updatedAt=1643834347824"
+                    "https://ik.imagekit.io/mbhxghyf1m2/discoastronautclub_0ZbNP_6Zr.png?ik-sdk-version=javascript-1.4.3&updatedAt=1658596606740"
                   }
                   alt="Disconaut Suit"
                   className={imageClasses}
                 />
-                <h2>Disconaut #56</h2>
+                <h2>Links!</h2>
               </GridItem>
             </Card>
           </GridItem>

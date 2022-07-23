@@ -76,6 +76,17 @@ export default function LandingPage(props) {
                 </Button>
               </GridItem>
             </GridContainer>
+            <br />
+            <img
+              position="absolute"
+              width="10%"
+              height="20%"
+              left="50%"
+              top="50%"
+              objectFit="fill"
+              zIndex="-1"
+              src="https://ik.imagekit.io/mbhxghyf1m2/discoastronautclub_0ZbNP_6Zr.png?ik-sdk-version=javascript-1.4.3&updatedAt=1658596606740"
+            />
           </div>
         </Fade>
       </Parallax>
